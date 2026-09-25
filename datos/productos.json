@@ -1,0 +1,3447 @@
+{
+ "moneda": "$",
+ "escalas": [
+  {
+   "desde": 1,
+   "etiqueta": "Unidad"
+  },
+  {
+   "desde": 12,
+   "etiqueta": "Docena"
+  }
+ ],
+ "categorias": [
+  {
+   "id": "bazar",
+   "nombre": "Bazar"
+  },
+  {
+   "id": "electro",
+   "nombre": "Electro"
+  },
+  {
+   "id": "electrodomesticos",
+   "nombre": "Electrodomesticos"
+  },
+  {
+   "id": "jardin",
+   "nombre": "Jardin"
+  },
+  {
+   "id": "limpieza",
+   "nombre": "Limpieza"
+  },
+  {
+   "id": "organizacion",
+   "nombre": "Organizacion"
+  },
+  {
+   "id": "textil-de-hogar",
+   "nombre": "Textil de hogar"
+  },
+  {
+   "id": "cocina",
+   "nombre": "cocina"
+  }
+ ],
+ "productos": [
+  {
+   "id": "ah-1001",
+   "nombre": "Trapo de piso 18 unidades Bahia",
+   "sku": "AH-1001",
+   "categoria": "jardin",
+   "precio": 1574,
+   "precios": {
+    "12": 1338
+   }
+  },
+  {
+   "id": "ah-1002",
+   "nombre": "Canasto organizador 40 litros Nova",
+   "sku": "AH-1002",
+   "categoria": "bazar",
+   "precio": 16209,
+   "precios": {
+    "12": 13778
+   }
+  },
+  {
+   "id": "ah-1003",
+   "nombre": "Perchas de plastico 28 unidades Luminar",
+   "sku": "AH-1003",
+   "categoria": "electrodomesticos",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 12592,
+   "precios": {
+    "12": 10703
+   },
+   "imagen": "assets/productos/IMG_4821.JPG"
+  },
+  {
+   "id": "ah-1004",
+   "nombre": "Sarten antiadherente 1200 cm Luminar",
+   "sku": "AH-1004",
+   "categoria": "organizacion",
+   "precio": 1500,
+   "precios": {
+    "12": 11173
+   }
+  },
+  {
+   "id": "ah-1005",
+   "nombre": "Batidora de mano 40 watts Bahia",
+   "sku": "AH-1005",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1726,
+   "precios": {
+    "12": 1467
+   }
+  },
+  {
+   "id": "ah-1006",
+   "nombre": "Secador de piso 28 cm Casa Real",
+   "sku": "AH-1006",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 16110,
+   "precios": {
+    "12": 13694
+   }
+  },
+  {
+   "id": "ah-1007",
+   "nombre": "Licuadora 1200 watts Casa Real",
+   "sku": "AH-1007",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2895,
+   "precios": {
+    "12": 2461
+   }
+  },
+  {
+   "id": "ah-1008",
+   "nombre": "Canasto organizador 16 litros Luminar",
+   "sku": "AH-1008",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2511,
+   "precios": {
+    "12": 2134
+   }
+  },
+  {
+   "id": "ah-1009",
+   "nombre": "Sabanas 500 plazas Bahia",
+   "sku": "AH-1009",
+   "categoria": "electrodomesticos",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1466,
+   "precios": {
+    "12": 1246
+   }
+  },
+  {
+   "id": "ah-1010",
+   "nombre": "Canasto organizador 22 litros Andes",
+   "sku": "AH-1010",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1500.5,
+   "precios": {
+    "12": 1364
+   },
+   "imagen": "assets/productos/IMG_4822.JPG"
+  },
+  {
+   "id": "ah-1011",
+   "nombre": "Juego de vasos 40 piezas Prisma",
+   "sku": "AH-1011",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16496,
+   "precios": {
+    "12": 14022
+   }
+  },
+  {
+   "id": "ah-1012",
+   "nombre": "Secador de piso 40 cm Luminar",
+   "sku": "AH-1012",
+   "categoria": "limpieza",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2824,
+   "precios": {
+    "12": 2400
+   }
+  },
+  {
+   "id": "ah-1013",
+   "nombre": "Set de cubiertos 24 piezas Casa Real",
+   "sku": "AH-1013",
+   "categoria": "bazar",
+   "precio": 7631,
+   "precios": {
+    "12": 6486
+   }
+  },
+  {
+   "id": "ah-1014",
+   "nombre": "Set de cubiertos 36 piezas Tramontina",
+   "sku": "AH-1014",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1701,
+   "precios": {
+    "12": 1446
+   }
+  },
+  {
+   "id": "ah-1015",
+   "nombre": "Batidora de mano 1000 watts",
+   "sku": "AH-1015",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 3160,
+   "precios": {
+    "12": 2686
+   }
+  },
+  {
+   "id": "ah-1016",
+   "nombre": "Sabanas 750 plazas Luminar",
+   "sku": "AH-1016",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2248,
+   "precios": {
+    "12": 1911
+   }
+  },
+  {
+   "id": "ah-1017",
+   "nombre": "Ventilador de pie 40 pulgadas",
+   "sku": "AH-1017",
+   "categoria": "limpieza",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5483,
+   "precios": {
+    "12": 4661
+   },
+   "imagen": "assets/productos/IMG_4823.JPG"
+  },
+  {
+   "id": "ah-1018",
+   "nombre": "Olla de aluminio 30 cm Tramontina",
+   "sku": "AH-1018",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2300,
+   "precios": {
+    "12": 1288
+   }
+  },
+  {
+   "id": "ah-1019",
+   "nombre": "Sarten antiadherente 20 cm Prisma",
+   "sku": "AH-1019",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1646,
+   "precios": {
+    "12": 1399
+   }
+  },
+  {
+   "id": "ah-1020",
+   "nombre": "Caja organizadora 1200 litros",
+   "sku": "AH-1020",
+   "categoria": "electro",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2470,
+   "precios": {
+    "12": 2100
+   }
+  },
+  {
+   "id": "ah-1021",
+   "nombre": "Licuadora 22 watts Casa Real",
+   "sku": "AH-1021",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 34784,
+   "precios": {
+    "12": 29566
+   }
+  },
+  {
+   "id": "ah-1022",
+   "nombre": "Regadera 28 litros Tramontina",
+   "sku": "AH-1022",
+   "categoria": "bazar",
+   "precio": 34136,
+   "precios": {
+    "12": 29016
+   }
+  },
+  {
+   "id": "ah-1023",
+   "nombre": "Pava electrica 18 litros Andes",
+   "sku": "AH-1023",
+   "categoria": "electro",
+   "descripcion": "Ideal para uso diario",
+   "precio": 12512,
+   "precios": {
+    "12": 10635
+   }
+  },
+  {
+   "id": "ah-1024",
+   "nombre": "Balde con escurridor 22 litros Nova",
+   "sku": "AH-1024",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1600,
+   "precios": {
+    "12": 1121
+   },
+   "imagen": "assets/productos/foto ollas del local.png"
+  },
+  {
+   "id": "ah-1025",
+   "nombre": "Tostadora 40 rebanadas Tramontina",
+   "sku": "AH-1025",
+   "categoria": "jardin",
+   "precio": 1597,
+   "precios": {
+    "12": 1357
+   }
+  },
+  {
+   "id": "ah-1026",
+   "nombre": "Juego de toallas 1200 piezas Bahia",
+   "sku": "AH-1026",
+   "categoria": "limpieza",
+   "precio": 34308,
+   "precios": {
+    "12": 29162
+   }
+  },
+  {
+   "id": "ah-1027",
+   "nombre": "Sabanas 500 plazas Bahia",
+   "sku": "AH-1027",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1695,
+   "precios": {
+    "12": 1441
+   }
+  },
+  {
+   "id": "ah-1028",
+   "nombre": "Juego de toallas 18 piezas Luminar",
+   "sku": "AH-1028",
+   "categoria": "bazar",
+   "precio": 1605,
+   "precios": {
+    "12": 1364
+   }
+  },
+  {
+   "id": "ah-1029",
+   "nombre": "Olla de aluminio 40 cm Casa Real",
+   "sku": "AH-1029",
+   "categoria": "cocina",
+   "precio": 16093,
+   "precios": {
+    "12": 13679
+   }
+  },
+  {
+   "id": "ah-1030",
+   "nombre": "Juego de vasos 1200 piezas Andes",
+   "sku": "AH-1030",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2835,
+   "precios": {
+    "12": 2410
+   }
+  },
+  {
+   "id": "ah-1031",
+   "nombre": "Canasto organizador 40 litros Tramontina",
+   "sku": "AH-1031",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7325,
+   "precios": {
+    "12": 6226
+   },
+   "imagen": "assets/productos/banner-proveedor.webp"
+  },
+  {
+   "id": "ah-1032",
+   "nombre": "Juego de toallas 30 piezas",
+   "sku": "AH-1032",
+   "categoria": "bazar",
+   "precio": 5800,
+   "precios": {
+    "12": 4111
+   }
+  },
+  {
+   "id": "ah-1033",
+   "nombre": "Maceta de plastico 24 cm Prisma",
+   "sku": "AH-1033",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 8048,
+   "precios": {
+    "12": 6841
+   }
+  },
+  {
+   "id": "ah-1034",
+   "nombre": "Mantel plastificado 14 metros Andes",
+   "sku": "AH-1034",
+   "categoria": "bazar",
+   "precio": 16360,
+   "precios": {
+    "12": 13906
+   }
+  },
+  {
+   "id": "ah-1035",
+   "nombre": "Set de cubiertos 36 piezas Prisma",
+   "sku": "AH-1035",
+   "categoria": "jardin",
+   "descripcion": "Apto lavavajillas",
+   "precio": 3012,
+   "precios": {
+    "12": 2560
+   }
+  },
+  {
+   "id": "ah-1036",
+   "nombre": "Mantel plastificado 24 metros Casa Real",
+   "sku": "AH-1036",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1780,
+   "precios": {
+    "12": 1513
+   }
+  },
+  {
+   "id": "ah-1037",
+   "nombre": "Ventilador de pie 20 pulgadas Andes",
+   "sku": "AH-1037",
+   "categoria": "limpieza",
+   "descripcion": "Ideal para uso diario",
+   "precio": 13337,
+   "precios": {
+    "12": 11336
+   }
+  },
+  {
+   "id": "ah-1038",
+   "nombre": "Tabla de picar 36 cm",
+   "sku": "AH-1038",
+   "categoria": "bazar",
+   "precio": 1738,
+   "precios": {
+    "12": 1477
+   },
+   "imagen": "assets/productos/IMG_4899.HEIC.webp"
+  },
+  {
+   "id": "ah-1039",
+   "nombre": "Bowl de vidrio 22 cm",
+   "sku": "AH-1039",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 4948,
+   "precios": {
+    "12": 4206
+   }
+  },
+  {
+   "id": "ah-1040",
+   "nombre": "Juego de toallas 1000 piezas Tramontina",
+   "sku": "AH-1040",
+   "categoria": "bazar",
+   "precio": 1072,
+   "precios": {
+    "12": 911
+   }
+  },
+  {
+   "id": "ah-1041",
+   "nombre": "Escurridor de platos 30 Andes",
+   "sku": "AH-1041",
+   "categoria": "electro",
+   "precio": 1199,
+   "precios": {
+    "12": 1019
+   }
+  },
+  {
+   "id": "ah-1042",
+   "nombre": "Sabanas 500 plazas Tramontina",
+   "sku": "AH-1042",
+   "categoria": "organizacion",
+   "precio": 3154,
+   "precios": {
+    "12": 2681
+   }
+  },
+  {
+   "id": "ah-1043",
+   "nombre": "Palo de escoba 28 cm Andes",
+   "sku": "AH-1043",
+   "categoria": "limpieza",
+   "descripcion": "Apto lavavajillas",
+   "precio": 7382,
+   "precios": {
+    "12": 6275
+   }
+  },
+  {
+   "id": "ah-1044",
+   "nombre": "Juego de vasos 1000 piezas Bahia",
+   "sku": "AH-1044",
+   "categoria": "organizacion",
+   "precio": 7611,
+   "precios": {
+    "12": 6469
+   }
+  },
+  {
+   "id": "ah-1046",
+   "nombre": "Bowl de vidrio 500 cm Casa Real",
+   "sku": "AH-1046",
+   "categoria": "electrodomesticos",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 3296,
+   "precios": {
+    "12": 2802
+   }
+  },
+  {
+   "id": "ah-1047",
+   "nombre": "Plancha a vapor 24 watts Casa Real",
+   "sku": "AH-1047",
+   "categoria": "bazar",
+   "precio": 16551,
+   "precios": {
+    "12": 14068
+   }
+  },
+  {
+   "id": "ah-1048",
+   "nombre": "Olla de aluminio 1000 cm Luminar",
+   "sku": "AH-1048",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16757,
+   "precios": {
+    "12": 14243
+   }
+  },
+  {
+   "id": "ah-1049",
+   "nombre": "Dispenser de jabon 20 ml Andes",
+   "sku": "AH-1049",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1757,
+   "precios": {
+    "12": 1493
+   }
+  },
+  {
+   "id": "ah-1050",
+   "nombre": "Mantel plastificado 20 metros Tramontina",
+   "sku": "AH-1050",
+   "categoria": "limpieza",
+   "descripcion": "Ideal para uso diario",
+   "precio": 5307,
+   "precios": {
+    "12": 4511
+   }
+  },
+  {
+   "id": "ah-1051",
+   "nombre": "Sarten antiadherente 750 cm Tramontina",
+   "sku": "AH-1051",
+   "categoria": "electrodomesticos",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7878,
+   "precios": {
+    "12": 6696
+   }
+  },
+  {
+   "id": "ah-1052",
+   "nombre": "Frasco hermetico 36 ml Casa Real",
+   "sku": "AH-1052",
+   "categoria": "electrodomesticos",
+   "precio": 16145,
+   "precios": {
+    "12": 13723
+   },
+   "imagen": "assets/productos/iconito.png"
+  },
+  {
+   "id": "ah-1053",
+   "nombre": "Dispenser de jabon 30 ml Casa Real",
+   "sku": "AH-1053",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2454,
+   "precios": {
+    "12": 2086
+   }
+  },
+  {
+   "id": "ah-1054",
+   "nombre": "Pava electrica 18 litros",
+   "sku": "AH-1054",
+   "categoria": "bazar",
+   "precio": 3192,
+   "precios": {
+    "12": 2713
+   }
+  },
+  {
+   "id": "ah-1055",
+   "nombre": "Trapo de piso 500 unidades",
+   "sku": "AH-1055",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2873,
+   "precios": {
+    "12": 2442
+   }
+  },
+  {
+   "id": "ah-1056",
+   "nombre": "Tabla de picar 22 cm Nova",
+   "sku": "AH-1056",
+   "categoria": "electro",
+   "precio": 2819,
+   "precios": {
+    "12": 2396
+   }
+  },
+  {
+   "id": "ah-1057",
+   "nombre": "Set de cubiertos 16 piezas",
+   "sku": "AH-1057",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1617,
+   "precios": {
+    "12": 1374
+   }
+  },
+  {
+   "id": "ah-1058",
+   "nombre": "Set de cubiertos 24 piezas Casa Real",
+   "sku": "AH-1058",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16536,
+   "precios": {
+    "12": 14056
+   }
+  },
+  {
+   "id": "ah-1059",
+   "nombre": "Set de cubiertos 24 piezas Casa Real",
+   "sku": "AH-1059",
+   "categoria": "jardin",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16197,
+   "precios": {
+    "12": 13767
+   },
+   "imagen": "assets/productos/catalogo-imprenta.jpg"
+  },
+  {
+   "id": "ah-1060",
+   "nombre": "Cafetera italiana 28 pocillos Luminar",
+   "sku": "AH-1060",
+   "categoria": "cocina",
+   "precio": 34352,
+   "precios": {
+    "12": 29199
+   }
+  },
+  {
+   "id": "ah-1061",
+   "nombre": "Plancha a vapor 20 watts Bahia",
+   "sku": "AH-1061",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2517,
+   "precios": {
+    "12": 2139
+   }
+  },
+  {
+   "id": "ah-1062",
+   "nombre": "Bowl de vidrio 16 cm Casa Real",
+   "sku": "AH-1062",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1136,
+   "precios": {
+    "12": 966
+   }
+  },
+  {
+   "id": "ah-1063",
+   "nombre": "Juego de toallas 20 piezas Luminar",
+   "sku": "AH-1063",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 34398,
+   "precios": {
+    "12": 29238
+   }
+  },
+  {
+   "id": "ah-1064",
+   "nombre": "Pava electrica 750 litros Bahia",
+   "sku": "AH-1064",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16403,
+   "precios": {
+    "12": 13943
+   }
+  },
+  {
+   "id": "ah-1065",
+   "nombre": "Tabla de picar 24 cm Tramontina",
+   "sku": "AH-1065",
+   "categoria": "cocina",
+   "precio": 3039,
+   "precios": {
+    "12": 2583
+   }
+  },
+  {
+   "id": "ah-1066",
+   "nombre": "Trapo de piso 36 unidades",
+   "sku": "AH-1066",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7920,
+   "precios": {
+    "12": 6732
+   },
+   "imagen": "assets/productos/no-existe-esta-foto.jpg"
+  },
+  {
+   "id": "ah-1067",
+   "nombre": "Trapo de piso 36 unidades Prisma",
+   "sku": "AH-1067",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 16055,
+   "precios": {
+    "12": 13647
+   }
+  },
+  {
+   "id": "ah-1068",
+   "nombre": "Cesto de residuos 16 litros Luminar",
+   "sku": "AH-1068",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 5028,
+   "precios": {
+    "12": 4274
+   }
+  },
+  {
+   "id": "ah-1069",
+   "nombre": "Balde con escurridor 1000 litros Casa Real",
+   "sku": "AH-1069",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 34769,
+   "precios": {
+    "12": 29554
+   }
+  },
+  {
+   "id": "ah-1070",
+   "nombre": "Caja organizadora 18 litros",
+   "sku": "AH-1070",
+   "categoria": "cocina",
+   "precio": 1081,
+   "precios": {
+    "12": 919
+   }
+  },
+  {
+   "id": "ah-1071",
+   "nombre": "Bowl de vidrio 750 cm Casa Real",
+   "sku": "AH-1071",
+   "categoria": "cocina",
+   "precio": 33974,
+   "precios": {
+    "12": 28878
+   }
+  },
+  {
+   "id": "ah-1072",
+   "nombre": "Ventilador de pie 16 pulgadas Prisma",
+   "sku": "AH-1072",
+   "categoria": "jardin",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2922,
+   "precios": {
+    "12": 2484
+   }
+  },
+  {
+   "id": "ah-1073",
+   "nombre": "Juego de vasos 22 piezas Luminar",
+   "sku": "AH-1073",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7211,
+   "precios": {
+    "12": 6129
+   }
+  },
+  {
+   "id": "ah-1074",
+   "nombre": "Palo de escoba 22 cm Casa Real",
+   "sku": "AH-1074",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2039,
+   "precios": {
+    "12": 1733
+   }
+  },
+  {
+   "id": "ah-1075",
+   "nombre": "Set de ollas 18 piezas Prisma",
+   "sku": "AH-1075",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1685,
+   "precios": {
+    "12": 1432
+   }
+  },
+  {
+   "id": "ah-1076",
+   "nombre": "Ventilador de pie 22 pulgadas Andes",
+   "sku": "AH-1076",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 5206,
+   "precios": {
+    "12": 4425
+   }
+  },
+  {
+   "id": "ah-1077",
+   "nombre": "Balde con escurridor 24 litros Nova",
+   "sku": "AH-1077",
+   "categoria": "bazar",
+   "precio": 4787,
+   "precios": {
+    "12": 4069
+   }
+  },
+  {
+   "id": "ah-1079",
+   "nombre": "Set de ollas 500 piezas Bahia",
+   "sku": "AH-1079",
+   "categoria": "jardin",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7759,
+   "precios": {
+    "12": 6595
+   }
+  },
+  {
+   "id": "ah-1080",
+   "nombre": "Mantel plastificado 22 metros Andes",
+   "sku": "AH-1080",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 12850,
+   "precios": {
+    "12": 10922
+   }
+  },
+  {
+   "id": "ah-1081",
+   "nombre": "Caja organizadora 24 litros Nova",
+   "sku": "AH-1081",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 904,
+   "precios": {
+    "12": 768
+   }
+  },
+  {
+   "id": "ah-1082",
+   "nombre": "Perchas de plastico 18 unidades Nova",
+   "sku": "AH-1082",
+   "categoria": "jardin",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2981,
+   "precios": {
+    "12": 2534
+   }
+  },
+  {
+   "id": "ah-1083",
+   "nombre": "Dispenser de jabon 36 ml Prisma",
+   "sku": "AH-1083",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2698,
+   "precios": {
+    "12": 2293
+   }
+  },
+  {
+   "id": "ah-1084",
+   "nombre": "Sarten antiadherente 30 cm Casa Real",
+   "sku": "AH-1084",
+   "categoria": "electro",
+   "precio": 1165,
+   "precios": {
+    "12": 990
+   }
+  },
+  {
+   "id": "ah-1085",
+   "nombre": "Balde con escurridor 24 litros Tramontina",
+   "sku": "AH-1085",
+   "categoria": "bazar",
+   "precio": 16321,
+   "precios": {
+    "12": 13873
+   }
+  },
+  {
+   "id": "ah-1086",
+   "nombre": "Cesto de residuos 22 litros Andes",
+   "sku": "AH-1086",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1177,
+   "precios": {
+    "12": 1000
+   }
+  },
+  {
+   "id": "ah-1087",
+   "nombre": "Caja organizadora 16 litros",
+   "sku": "AH-1087",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 5264,
+   "precios": {
+    "12": 4474
+   }
+  },
+  {
+   "id": "ah-1088",
+   "nombre": "Escurridor de platos 36 Nova",
+   "sku": "AH-1088",
+   "categoria": "jardin",
+   "precio": 2570,
+   "precios": {
+    "12": 2184
+   }
+  },
+  {
+   "id": "ah-1089",
+   "nombre": "Set de ollas 5 piezas con tapa de vidrio templado y mangos de silicona antitermica apto para todo tipo de cocinas incluida induccion",
+   "sku": "AH-1089",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 33923,
+   "precios": {
+    "12": 28835
+   }
+  },
+  {
+   "id": "ah-1090",
+   "nombre": "Ventilador de pie 20 pulgadas Luminar",
+   "sku": "AH-1090",
+   "categoria": "jardin",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2991,
+   "precios": {
+    "12": 2542
+   }
+  },
+  {
+   "id": "ah-1091",
+   "nombre": "Plancha a vapor 750 watts Bahia",
+   "sku": "AH-1091",
+   "categoria": "electro",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1727,
+   "precios": {
+    "12": 1468
+   }
+  },
+  {
+   "id": "ah-1092",
+   "nombre": "Secador de piso 750 cm Casa Real",
+   "sku": "AH-1092",
+   "categoria": "jardin",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2344,
+   "precios": {
+    "12": 1992
+   }
+  },
+  {
+   "id": "ah-1093",
+   "nombre": "Maceta de plastico 750 cm Casa Real",
+   "sku": "AH-1093",
+   "categoria": "electrodomesticos",
+   "precio": 16760,
+   "precios": {
+    "12": 14246
+   }
+  },
+  {
+   "id": "ah-1094",
+   "nombre": "Frasco hermetico 500 ml Andes",
+   "sku": "AH-1094",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2331,
+   "precios": {
+    "12": 1981
+   }
+  },
+  {
+   "id": "ah-1095",
+   "nombre": "Ventilador de pie 24 pulgadas Luminar",
+   "sku": "AH-1095",
+   "categoria": "electro",
+   "precio": 34755,
+   "precios": {
+    "12": 29542
+   }
+  },
+  {
+   "id": "ah-1096",
+   "nombre": "Ventilador de pie 14 pulgadas Andes",
+   "sku": "AH-1096",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7470,
+   "precios": {
+    "12": 6350
+   },
+   "activo": false
+  },
+  {
+   "id": "ah-1097",
+   "nombre": "Bowl de vidrio 16 cm Luminar",
+   "sku": "AH-1097",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16057,
+   "precios": {
+    "12": 13648
+   }
+  },
+  {
+   "id": "ah-1098",
+   "nombre": "Balde con escurridor 1000 litros Luminar",
+   "sku": "AH-1098",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 4990,
+   "precios": {
+    "12": 4242
+   }
+  },
+  {
+   "id": "ah-1099",
+   "nombre": "Escurridor de platos 750",
+   "sku": "AH-1099",
+   "categoria": "limpieza",
+   "precio": 8065,
+   "precios": {
+    "12": 6855
+   }
+  },
+  {
+   "id": "ah-1100",
+   "nombre": "Sabanas 500 plazas Prisma",
+   "sku": "AH-1100",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2131,
+   "precios": {
+    "12": 1811
+   }
+  },
+  {
+   "id": "ah-1101",
+   "nombre": "Juego de vasos 40 piezas Casa Real",
+   "sku": "AH-1101",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1250,
+   "precios": {
+    "12": 1062
+   }
+  },
+  {
+   "id": "ah-1102",
+   "nombre": "Tostadora 40 rebanadas Casa Real",
+   "sku": "AH-1102",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1993,
+   "precios": {
+    "12": 1694
+   }
+  },
+  {
+   "id": "ah-1103",
+   "nombre": "Balde con escurridor 500 litros Luminar",
+   "sku": "AH-1103",
+   "categoria": "electro",
+   "descripcion": "Apto lavavajillas",
+   "precio": 13191,
+   "precios": {
+    "12": 11212
+   }
+  },
+  {
+   "id": "ah-1104",
+   "nombre": "Regadera 36 litros Prisma",
+   "sku": "AH-1104",
+   "categoria": "electro",
+   "precio": 7677,
+   "precios": {
+    "12": 6525
+   }
+  },
+  {
+   "id": "ah-1105",
+   "nombre": "Cesto de residuos 36 litros Andes",
+   "sku": "AH-1105",
+   "categoria": "electro",
+   "precio": 4837,
+   "precios": {
+    "12": 4111
+   }
+  },
+  {
+   "id": "ah-1106",
+   "nombre": "Secador de piso 30 cm Luminar",
+   "sku": "AH-1106",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16450,
+   "precios": {
+    "12": 13982
+   }
+  },
+  {
+   "id": "ah-1107",
+   "nombre": "Tabla de picar 20 cm Luminar",
+   "sku": "AH-1107",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2542,
+   "precios": {
+    "12": 2161
+   }
+  },
+  {
+   "id": "ah-1108",
+   "nombre": "Canasto organizador 18 litros Prisma",
+   "sku": "AH-1108",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 3020,
+   "precios": {
+    "12": 2567
+   }
+  },
+  {
+   "id": "ah-1109",
+   "nombre": "Sabanas 30 plazas Bahia",
+   "sku": "AH-1109",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1662,
+   "precios": {
+    "12": 1413
+   }
+  },
+  {
+   "id": "ah-1110",
+   "nombre": "Plancha a vapor 30 watts Bahia",
+   "sku": "AH-1110",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 5494,
+   "precios": {
+    "12": 4670
+   }
+  },
+  {
+   "id": "ah-1111",
+   "nombre": "Canasto organizador 28 litros Tramontina",
+   "sku": "AH-1111",
+   "categoria": "cocina",
+   "precio": 3160,
+   "precios": {
+    "12": 2686
+   }
+  },
+  {
+   "id": "ah-1112",
+   "nombre": "Trapo de piso 1000 unidades Tramontina",
+   "sku": "AH-1112",
+   "categoria": "bazar",
+   "precio": 34022,
+   "precios": {
+    "12": 28919
+   }
+  },
+  {
+   "id": "ah-1113",
+   "nombre": "Cesto de residuos 750 litros Prisma",
+   "sku": "AH-1113",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 5131,
+   "precios": {
+    "12": 4361
+   }
+  },
+  {
+   "id": "ah-1114",
+   "nombre": "Caja organizadora 1200 litros Luminar",
+   "sku": "AH-1114",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1428,
+   "precios": {
+    "12": 1214
+   }
+  },
+  {
+   "id": "ah-1115",
+   "nombre": "Dispenser de jabon 14 ml Prisma",
+   "sku": "AH-1115",
+   "categoria": "jardin",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2352,
+   "precios": {
+    "12": 1999
+   }
+  },
+  {
+   "id": "ah-1116",
+   "nombre": "Ventilador de pie 18 pulgadas Andes",
+   "sku": "AH-1116",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5196,
+   "precios": {
+    "12": 4417
+   }
+  },
+  {
+   "id": "ah-1117",
+   "nombre": "Tabla de picar 1000 cm Tramontina",
+   "sku": "AH-1117",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 33929,
+   "precios": {
+    "12": 28840
+   }
+  },
+  {
+   "id": "ah-1118",
+   "nombre": "Palo de escoba 36 cm Andes",
+   "sku": "AH-1118",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2350,
+   "precios": {
+    "12": 1998
+   }
+  },
+  {
+   "id": "ah-1119",
+   "nombre": "Juego de toallas 40 piezas Casa Real",
+   "sku": "AH-1119",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 5247,
+   "precios": {
+    "12": 4460
+   }
+  },
+  {
+   "id": "ah-1120",
+   "nombre": "Pava electrica 30 litros Bahia",
+   "sku": "AH-1120",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1278,
+   "precios": {
+    "12": 1086
+   }
+  },
+  {
+   "id": "ah-1121",
+   "nombre": "Maceta de plastico 750 cm Prisma",
+   "sku": "AH-1121",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 34571,
+   "precios": {
+    "12": 29385
+   }
+  },
+  {
+   "id": "ah-1122",
+   "nombre": "Sabanas 36 plazas Bahia",
+   "sku": "AH-1122",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2471,
+   "precios": {
+    "12": 2100
+   }
+  },
+  {
+   "id": "ah-1123",
+   "nombre": "Juego de vasos 20 piezas",
+   "sku": "AH-1123",
+   "categoria": "electro",
+   "descripcion": "Apto lavavajillas",
+   "precio": 16215,
+   "precios": {
+    "12": 13783
+   }
+  },
+  {
+   "id": "ah-1124",
+   "nombre": "Set de cubiertos 30 piezas Bahia",
+   "sku": "AH-1124",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1450,
+   "precios": {
+    "12": 1232
+   }
+  },
+  {
+   "id": "ah-1125",
+   "nombre": "Juego de vasos 18 piezas Tramontina",
+   "sku": "AH-1125",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 16083,
+   "precios": {
+    "12": 13671
+   }
+  },
+  {
+   "id": "ah-1126",
+   "nombre": "Canasto organizador 22 litros Andes",
+   "sku": "AH-1126",
+   "categoria": "jardin",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2267,
+   "precios": {
+    "12": 1927
+   }
+  },
+  {
+   "id": "ah-1127",
+   "nombre": "Caja organizadora 28 litros Andes",
+   "sku": "AH-1127",
+   "categoria": "cocina",
+   "precio": 34176,
+   "precios": {
+    "12": 29050
+   }
+  },
+  {
+   "id": "ah-1128",
+   "nombre": "Sabanas 22 plazas Tramontina",
+   "sku": "AH-1128",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1593,
+   "precios": {
+    "12": 1354
+   }
+  },
+  {
+   "id": "ah-1129",
+   "nombre": "Juego de vasos 22 piezas Andes",
+   "sku": "AH-1129",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 34309,
+   "precios": {
+    "12": 29163
+   }
+  },
+  {
+   "id": "ah-1130",
+   "nombre": "Perchas de plastico 22 unidades Nova",
+   "sku": "AH-1130",
+   "categoria": "limpieza",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 923,
+   "precios": {
+    "12": 785
+   }
+  },
+  {
+   "id": "ah-1131",
+   "nombre": "Batidora de mano 30 watts Nova",
+   "sku": "AH-1131",
+   "categoria": "jardin",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2700,
+   "precios": {
+    "12": 2295
+   }
+  },
+  {
+   "id": "ah-1132",
+   "nombre": "Juego de toallas 20 piezas Luminar",
+   "sku": "AH-1132",
+   "categoria": "bazar",
+   "precio": 12658,
+   "precios": {
+    "12": 10759
+   }
+  },
+  {
+   "id": "ah-1133",
+   "nombre": "Frasco hermetico 750 ml",
+   "sku": "AH-1133",
+   "categoria": "textil-de-hogar",
+   "precio": 2864,
+   "precios": {
+    "12": 2434
+   }
+  },
+  {
+   "id": "ah-1134",
+   "nombre": "Olla de aluminio 1000 cm Casa Real",
+   "sku": "AH-1134",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 13083,
+   "precios": {
+    "12": 11121
+   }
+  },
+  {
+   "id": "ah-1135",
+   "nombre": "Cafetera italiana 500 pocillos Prisma",
+   "sku": "AH-1135",
+   "categoria": "limpieza",
+   "precio": 16641,
+   "precios": {
+    "12": 14145
+   }
+  },
+  {
+   "id": "ah-1136",
+   "nombre": "Set de ollas 16 piezas Prisma",
+   "sku": "AH-1136",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16586,
+   "precios": {
+    "12": 14098
+   }
+  },
+  {
+   "id": "ah-1137",
+   "nombre": "Balde con escurridor 20 litros Nova",
+   "sku": "AH-1137",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2050,
+   "precios": {
+    "12": 1742
+   }
+  },
+  {
+   "id": "ah-1138",
+   "nombre": "Balde con escurridor 24 litros Andes",
+   "sku": "AH-1138",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7738,
+   "precios": {
+    "12": 6577
+   }
+  },
+  {
+   "id": "ah-1139",
+   "nombre": "Olla de aluminio 28 cm Prisma",
+   "sku": "AH-1139",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1522,
+   "precios": {
+    "12": 1294
+   }
+  },
+  {
+   "id": "ah-1140",
+   "nombre": "Cesto de residuos 500 litros Bahia",
+   "sku": "AH-1140",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2563,
+   "precios": {
+    "12": 2179
+   }
+  },
+  {
+   "id": "ah-1141",
+   "nombre": "Palo de escoba 24 cm Andes",
+   "sku": "AH-1141",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 7234,
+   "precios": {
+    "12": 6149
+   }
+  },
+  {
+   "id": "ah-1142",
+   "nombre": "Regadera 28 litros Tramontina",
+   "sku": "AH-1142",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 34102,
+   "precios": {
+    "12": 28987
+   }
+  },
+  {
+   "id": "ah-1143",
+   "nombre": "Maceta de plastico 1200 cm Luminar",
+   "sku": "AH-1143",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 13007,
+   "precios": {
+    "12": 11056
+   }
+  },
+  {
+   "id": "ah-1144",
+   "nombre": "Set de cubiertos 1200 piezas Andes",
+   "sku": "AH-1144",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 12976,
+   "precios": {
+    "12": 11030
+   }
+  },
+  {
+   "id": "ah-1145",
+   "nombre": "Set de cubiertos 22 piezas Luminar",
+   "sku": "AH-1145",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2957,
+   "precios": {
+    "12": 2513
+   }
+  },
+  {
+   "id": "ah-1146",
+   "nombre": "Cesto de residuos 20 litros",
+   "sku": "AH-1146",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 34581,
+   "precios": {
+    "12": 29394
+   }
+  },
+  {
+   "id": "ah-1147",
+   "nombre": "Palo de escoba 28 cm Nova",
+   "sku": "AH-1147",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 12524,
+   "precios": {
+    "12": 10645
+   }
+  },
+  {
+   "id": "ah-1148",
+   "nombre": "Perchas de plastico 14 unidades Nova",
+   "sku": "AH-1148",
+   "categoria": "electro",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1292,
+   "precios": {
+    "12": 1098
+   }
+  },
+  {
+   "id": "ah-1149",
+   "nombre": "Maceta de plastico 16 cm Luminar",
+   "sku": "AH-1149",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1227,
+   "precios": {
+    "12": 1043
+   }
+  },
+  {
+   "id": "ah-1150",
+   "nombre": "Ventilador de pie 36 pulgadas",
+   "sku": "AH-1150",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1819,
+   "precios": {
+    "12": 1546
+   }
+  },
+  {
+   "id": "ah-1151",
+   "nombre": "Frasco hermetico 24 ml Tramontina",
+   "sku": "AH-1151",
+   "categoria": "bazar",
+   "precio": 7373,
+   "precios": {
+    "12": 6267
+   }
+  },
+  {
+   "id": "ah-1152",
+   "nombre": "Juego de vasos 22 piezas Luminar",
+   "sku": "AH-1152",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1420,
+   "precios": {
+    "12": 1207
+   }
+  },
+  {
+   "id": "ah-1153",
+   "nombre": "Caja organizadora 24 litros Prisma",
+   "sku": "AH-1153",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 33989,
+   "precios": {
+    "12": 28891
+   }
+  },
+  {
+   "id": "ah-1154",
+   "nombre": "Tabla de picar 24 cm",
+   "sku": "AH-1154",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 12831,
+   "precios": {
+    "12": 10906
+   }
+  },
+  {
+   "id": "ah-1155",
+   "nombre": "Olla de aluminio 500 cm Bahia",
+   "sku": "AH-1155",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 13331,
+   "precios": {
+    "12": 11331
+   }
+  },
+  {
+   "id": "ah-1156",
+   "nombre": "Sarten antiadherente 28 cm Nova",
+   "sku": "AH-1156",
+   "categoria": "textil-de-hogar",
+   "precio": 7264,
+   "precios": {
+    "12": 6174
+   }
+  },
+  {
+   "id": "ah-1157",
+   "nombre": "Balde con escurridor 20 litros Luminar",
+   "sku": "AH-1157",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2797,
+   "precios": {
+    "12": 2377
+   }
+  },
+  {
+   "id": "ah-1158",
+   "nombre": "Trapo de piso 40 unidades Nova",
+   "sku": "AH-1158",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5514,
+   "precios": {
+    "12": 4687
+   }
+  },
+  {
+   "id": "ah-1159",
+   "nombre": "Palo de escoba 22 cm Prisma",
+   "sku": "AH-1159",
+   "categoria": "textil-de-hogar",
+   "precio": 2238,
+   "precios": {
+    "12": 1902
+   }
+  },
+  {
+   "id": "ah-1160",
+   "nombre": "Olla de aluminio 1200 cm Andes",
+   "sku": "AH-1160",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2786,
+   "precios": {
+    "12": 2368
+   }
+  },
+  {
+   "id": "ah-1161",
+   "nombre": "Set de cubiertos 28 piezas Prisma",
+   "sku": "AH-1161",
+   "categoria": "electro",
+   "descripcion": "Ideal para uso diario",
+   "precio": 34734,
+   "precios": {
+    "12": 29524
+   }
+  },
+  {
+   "id": "ah-1162",
+   "nombre": "Palo de escoba 30 cm Casa Real",
+   "sku": "AH-1162",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2321,
+   "precios": {
+    "12": 1973
+   }
+  },
+  {
+   "id": "ah-1163",
+   "nombre": "Frasco hermetico 750 ml Casa Real",
+   "sku": "AH-1163",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2691,
+   "precios": {
+    "12": 2287
+   }
+  },
+  {
+   "id": "ah-1164",
+   "nombre": "Juego de toallas 24 piezas Luminar",
+   "sku": "AH-1164",
+   "categoria": "limpieza",
+   "descripcion": "Ideal para uso diario",
+   "precio": 16192,
+   "precios": {
+    "12": 13763
+   }
+  },
+  {
+   "id": "ah-1165",
+   "nombre": "Escurridor de platos 28 Luminar",
+   "sku": "AH-1165",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1993,
+   "precios": {
+    "12": 1694
+   }
+  },
+  {
+   "id": "ah-1166",
+   "nombre": "Pava electrica 28 litros Luminar",
+   "sku": "AH-1166",
+   "categoria": "electrodomesticos",
+   "precio": 2571,
+   "precios": {
+    "12": 2185
+   }
+  },
+  {
+   "id": "ah-1167",
+   "nombre": "Tabla de picar 16 cm Bahia",
+   "sku": "AH-1167",
+   "categoria": "electro",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7926,
+   "precios": {
+    "12": 6737
+   }
+  },
+  {
+   "id": "ah-1168",
+   "nombre": "Escurridor de platos 18 Bahia",
+   "sku": "AH-1168",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7835,
+   "precios": {
+    "12": 6660
+   }
+  },
+  {
+   "id": "ah-1169",
+   "nombre": "Maceta de plastico 36 cm Luminar",
+   "sku": "AH-1169",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5050,
+   "precios": {
+    "12": 4292
+   }
+  },
+  {
+   "id": "ah-1170",
+   "nombre": "Canasto organizador 22 litros Prisma",
+   "sku": "AH-1170",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 12949,
+   "precios": {
+    "12": 11007
+   }
+  },
+  {
+   "id": "ah-1171",
+   "nombre": "Escurridor de platos 20 Casa Real",
+   "sku": "AH-1171",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5342,
+   "precios": {
+    "12": 4541
+   }
+  },
+  {
+   "id": "ah-1172",
+   "nombre": "Juego de vasos 28 piezas Prisma",
+   "sku": "AH-1172",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 13019,
+   "precios": {
+    "12": 11066
+   }
+  },
+  {
+   "id": "ah-1173",
+   "nombre": "Ventilador de pie 1000 pulgadas Luminar",
+   "sku": "AH-1173",
+   "categoria": "bazar",
+   "precio": 7237,
+   "precios": {
+    "12": 6151
+   }
+  },
+  {
+   "id": "ah-1174",
+   "nombre": "Sabanas 1200 plazas Andes",
+   "sku": "AH-1174",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 7582,
+   "precios": {
+    "12": 6445
+   }
+  },
+  {
+   "id": "ah-1175",
+   "nombre": "Escurridor de platos 16 Nova",
+   "sku": "AH-1175",
+   "categoria": "jardin",
+   "descripcion": "Ideal para uso diario",
+   "precio": 13114,
+   "precios": {
+    "12": 11147
+   }
+  },
+  {
+   "id": "ah-1176",
+   "nombre": "Palo de escoba 16 cm Tramontina",
+   "sku": "AH-1176",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16876,
+   "precios": {
+    "12": 14345
+   }
+  },
+  {
+   "id": "ah-1177",
+   "nombre": "Tostadora 22 rebanadas Nova",
+   "sku": "AH-1177",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2952,
+   "precios": {
+    "12": 2509
+   }
+  },
+  {
+   "id": "ah-1178",
+   "nombre": "Tabla de picar 14 cm Tramontina",
+   "sku": "AH-1178",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1134,
+   "precios": {
+    "12": 964
+   }
+  },
+  {
+   "id": "ah-1179",
+   "nombre": "Balde con escurridor 14 litros Andes",
+   "sku": "AH-1179",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2338,
+   "precios": {
+    "12": 1987
+   }
+  },
+  {
+   "id": "ah-1180",
+   "nombre": "Plancha a vapor 24 watts Casa Real",
+   "sku": "AH-1180",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2769,
+   "precios": {
+    "12": 2354
+   }
+  },
+  {
+   "id": "ah-1181",
+   "nombre": "Sarten antiadherente 1000 cm",
+   "sku": "AH-1181",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16485,
+   "precios": {
+    "12": 14012
+   }
+  },
+  {
+   "id": "ah-1182",
+   "nombre": "Set de ollas 1000 piezas Bahia",
+   "sku": "AH-1182",
+   "categoria": "organizacion",
+   "precio": 16148,
+   "precios": {
+    "12": 13726
+   }
+  },
+  {
+   "id": "ah-1183",
+   "nombre": "Ventilador de pie 18 pulgadas Bahia",
+   "sku": "AH-1183",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5169,
+   "precios": {
+    "12": 4394
+   }
+  },
+  {
+   "id": "ah-1184",
+   "nombre": "Perchas de plastico 14 unidades Prisma",
+   "sku": "AH-1184",
+   "categoria": "limpieza",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2815,
+   "precios": {
+    "12": 2393
+   }
+  },
+  {
+   "id": "ah-1185",
+   "nombre": "Olla de aluminio 1200 cm Tramontina",
+   "sku": "AH-1185",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 12900,
+   "precios": {
+    "12": 10965
+   }
+  },
+  {
+   "id": "ah-1186",
+   "nombre": "Tabla de picar 14 cm Bahia",
+   "sku": "AH-1186",
+   "categoria": "bazar",
+   "precio": 1323,
+   "precios": {
+    "12": 1125
+   }
+  },
+  {
+   "id": "ah-1187",
+   "nombre": "Caja organizadora 40 litros Tramontina",
+   "sku": "AH-1187",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7991,
+   "precios": {
+    "12": 6792
+   }
+  },
+  {
+   "id": "ah-1188",
+   "nombre": "Olla de aluminio 14 cm Casa Real",
+   "sku": "AH-1188",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 33991,
+   "precios": {
+    "12": 28892
+   }
+  },
+  {
+   "id": "ah-1189",
+   "nombre": "Maceta de plastico 36 cm Casa Real",
+   "sku": "AH-1189",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1246,
+   "precios": {
+    "12": 1059
+   }
+  },
+  {
+   "id": "ah-1190",
+   "nombre": "Mantel plastificado 18 metros Luminar",
+   "sku": "AH-1190",
+   "categoria": "electro",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2692,
+   "precios": {
+    "12": 2288
+   }
+  },
+  {
+   "id": "ah-1191",
+   "nombre": "Secador de piso 18 cm Nova",
+   "sku": "AH-1191",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7522,
+   "precios": {
+    "12": 6394
+   }
+  },
+  {
+   "id": "ah-1192",
+   "nombre": "Juego de vasos 750 piezas Casa Real",
+   "sku": "AH-1192",
+   "categoria": "limpieza",
+   "descripcion": "Ideal para uso diario",
+   "precio": 13135,
+   "precios": {
+    "12": 11165
+   }
+  },
+  {
+   "id": "ah-1193",
+   "nombre": "Frasco hermetico 30 ml Casa Real",
+   "sku": "AH-1193",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2673,
+   "precios": {
+    "12": 2272
+   }
+  },
+  {
+   "id": "ah-1194",
+   "nombre": "Mantel plastificado 18 metros Bahia",
+   "sku": "AH-1194",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1116,
+   "precios": {
+    "12": 949
+   }
+  },
+  {
+   "id": "ah-1195",
+   "nombre": "Maceta de plastico 1200 cm Andes",
+   "sku": "AH-1195",
+   "categoria": "jardin",
+   "precio": 2075,
+   "precios": {
+    "12": 1764
+   }
+  },
+  {
+   "id": "ah-1196",
+   "nombre": "Plancha a vapor 1200 watts Tramontina",
+   "sku": "AH-1196",
+   "categoria": "electrodomesticos",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2699,
+   "precios": {
+    "12": 2294
+   }
+  },
+  {
+   "id": "ah-1197",
+   "nombre": "Licuadora 1200 watts Prisma",
+   "sku": "AH-1197",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 34215,
+   "precios": {
+    "12": 29083
+   }
+  },
+  {
+   "id": "ah-1198",
+   "nombre": "Perchas de plastico 28 unidades Tramontina",
+   "sku": "AH-1198",
+   "categoria": "electro",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7715,
+   "precios": {
+    "12": 6558
+   }
+  },
+  {
+   "id": "ah-1199",
+   "nombre": "Olla de aluminio 14 cm",
+   "sku": "AH-1199",
+   "categoria": "electro",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 7440,
+   "precios": {
+    "12": 6324
+   }
+  },
+  {
+   "id": "ah-1200",
+   "nombre": "Frasco hermetico 18 ml",
+   "sku": "AH-1200",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 34009,
+   "precios": {
+    "12": 28908
+   }
+  },
+  {
+   "id": "ah-1201",
+   "nombre": "Canasto organizador 28 litros Tramontina",
+   "sku": "AH-1201",
+   "categoria": "electro",
+   "precio": 3121,
+   "precios": {
+    "12": 2653
+   }
+  },
+  {
+   "id": "ah-1202",
+   "nombre": "Sarten antiadherente 500 cm Casa Real",
+   "sku": "AH-1202",
+   "categoria": "cocina",
+   "precio": 3051,
+   "precios": {
+    "12": 2593
+   }
+  },
+  {
+   "id": "ah-1203",
+   "nombre": "Sarten antiadherente 1000 cm Bahia",
+   "sku": "AH-1203",
+   "categoria": "jardin",
+   "precio": 916,
+   "precios": {
+    "12": 779
+   }
+  },
+  {
+   "id": "ah-1204",
+   "nombre": "Tostadora 750 rebanadas Luminar",
+   "sku": "AH-1204",
+   "categoria": "electro",
+   "descripcion": "Apto lavavajillas",
+   "precio": 12634,
+   "precios": {
+    "12": 10739
+   }
+  },
+  {
+   "id": "ah-1205",
+   "nombre": "Bowl de vidrio 1000 cm Casa Real",
+   "sku": "AH-1205",
+   "categoria": "jardin",
+   "descripcion": "Apto lavavajillas",
+   "precio": 12567,
+   "precios": {
+    "12": 10682
+   }
+  },
+  {
+   "id": "ah-1206",
+   "nombre": "Tostadora 1000 rebanadas Prisma",
+   "sku": "AH-1206",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1221,
+   "precios": {
+    "12": 1038
+   }
+  },
+  {
+   "id": "ah-1207",
+   "nombre": "Cesto de residuos 1200 litros",
+   "sku": "AH-1207",
+   "categoria": "electrodomesticos",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1150,
+   "precios": {
+    "12": 978
+   }
+  },
+  {
+   "id": "ah-1208",
+   "nombre": "Tabla de picar 40 cm Prisma",
+   "sku": "AH-1208",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2968,
+   "precios": {
+    "12": 2523
+   }
+  },
+  {
+   "id": "ah-1209",
+   "nombre": "Canasto organizador 14 litros Andes",
+   "sku": "AH-1209",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1303,
+   "precios": {
+    "12": 1108
+   }
+  },
+  {
+   "id": "ah-1210",
+   "nombre": "Plancha a vapor 24 watts Bahia",
+   "sku": "AH-1210",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1701,
+   "precios": {
+    "12": 1446
+   }
+  },
+  {
+   "id": "ah-1211",
+   "nombre": "Set de ollas 1000 piezas Nova",
+   "sku": "AH-1211",
+   "categoria": "electro",
+   "precio": 1883,
+   "precios": {
+    "12": 1601
+   }
+  },
+  {
+   "id": "ah-1212",
+   "nombre": "Balde con escurridor 36 litros Bahia",
+   "sku": "AH-1212",
+   "categoria": "limpieza",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1261,
+   "precios": {
+    "12": 1072
+   }
+  },
+  {
+   "id": "ah-1213",
+   "nombre": "Batidora de mano 18 watts Tramontina",
+   "sku": "AH-1213",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1772,
+   "precios": {
+    "12": 1506
+   }
+  },
+  {
+   "id": "ah-1214",
+   "nombre": "Escurridor de platos 18 Nova",
+   "sku": "AH-1214",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5589,
+   "precios": {
+    "12": 4751
+   }
+  },
+  {
+   "id": "ah-1215",
+   "nombre": "Secador de piso 500 cm Tramontina",
+   "sku": "AH-1215",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2265,
+   "precios": {
+    "12": 1925
+   }
+  },
+  {
+   "id": "ah-1216",
+   "nombre": "Cafetera italiana 22 pocillos Bahia",
+   "sku": "AH-1216",
+   "categoria": "cocina",
+   "precio": 34424,
+   "precios": {
+    "12": 29260
+   }
+  },
+  {
+   "id": "ah-1217",
+   "nombre": "Cafetera italiana 30 pocillos Andes",
+   "sku": "AH-1217",
+   "categoria": "bazar",
+   "precio": 3118,
+   "precios": {
+    "12": 2650
+   }
+  },
+  {
+   "id": "ah-1218",
+   "nombre": "Sarten antiadherente 14 cm Tramontina",
+   "sku": "AH-1218",
+   "categoria": "electrodomesticos",
+   "descripcion": "Apto lavavajillas",
+   "precio": 4858,
+   "precios": {
+    "12": 4129
+   }
+  },
+  {
+   "id": "ah-1219",
+   "nombre": "Licuadora 20 watts Bahia",
+   "sku": "AH-1219",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2758,
+   "precios": {
+    "12": 2344
+   }
+  },
+  {
+   "id": "ah-1220",
+   "nombre": "Tabla de picar 24 cm",
+   "sku": "AH-1220",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1027,
+   "precios": {
+    "12": 873
+   }
+  },
+  {
+   "id": "ah-1221",
+   "nombre": "Regadera 18 litros",
+   "sku": "AH-1221",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2365,
+   "precios": {
+    "12": 2010
+   }
+  },
+  {
+   "id": "ah-1222",
+   "nombre": "Dispenser de jabon 500 ml Prisma",
+   "sku": "AH-1222",
+   "categoria": "cocina",
+   "precio": 34731,
+   "precios": {
+    "12": 29521
+   }
+  },
+  {
+   "id": "ah-1223",
+   "nombre": "Sarten antiadherente 500 cm Tramontina",
+   "sku": "AH-1223",
+   "categoria": "electrodomesticos",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 3111,
+   "precios": {
+    "12": 2644
+   }
+  },
+  {
+   "id": "ah-1224",
+   "nombre": "Tostadora 36 rebanadas",
+   "sku": "AH-1224",
+   "categoria": "bazar",
+   "precio": 12669,
+   "precios": {
+    "12": 10769
+   }
+  },
+  {
+   "id": "ah-1225",
+   "nombre": "Sarten antiadherente 36 cm Nova",
+   "sku": "AH-1225",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 34090,
+   "precios": {
+    "12": 28976
+   }
+  },
+  {
+   "id": "ah-1226",
+   "nombre": "Sarten antiadherente 1000 cm Luminar",
+   "sku": "AH-1226",
+   "categoria": "electrodomesticos",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2127,
+   "precios": {
+    "12": 1808
+   }
+  },
+  {
+   "id": "ah-1227",
+   "nombre": "Cafetera italiana 28 pocillos Andes",
+   "sku": "AH-1227",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16612,
+   "precios": {
+    "12": 14120
+   }
+  },
+  {
+   "id": "ah-1228",
+   "nombre": "Frasco hermetico 40 ml Casa Real",
+   "sku": "AH-1228",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 16306,
+   "precios": {
+    "12": 13860
+   }
+  },
+  {
+   "id": "ah-1229",
+   "nombre": "Ventilador de pie 14 pulgadas",
+   "sku": "AH-1229",
+   "categoria": "limpieza",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 15996,
+   "precios": {
+    "12": 13597
+   }
+  },
+  {
+   "id": "ah-1230",
+   "nombre": "Maceta de plastico 30 cm Luminar",
+   "sku": "AH-1230",
+   "categoria": "bazar",
+   "precio": 7379,
+   "precios": {
+    "12": 6272
+   }
+  },
+  {
+   "id": "ah-1231",
+   "nombre": "Balde con escurridor 20 litros Nova",
+   "sku": "AH-1231",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2643,
+   "precios": {
+    "12": 2247
+   }
+  },
+  {
+   "id": "ah-1232",
+   "nombre": "Regadera 14 litros Prisma",
+   "sku": "AH-1232",
+   "categoria": "limpieza",
+   "descripcion": "Apto lavavajillas",
+   "precio": 16685,
+   "precios": {
+    "12": 14182
+   }
+  },
+  {
+   "id": "ah-1233",
+   "nombre": "Secador de piso 500 cm Andes",
+   "sku": "AH-1233",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2819,
+   "precios": {
+    "12": 2396
+   }
+  },
+  {
+   "id": "ah-1234",
+   "nombre": "Balde con escurridor 20 litros Andes",
+   "sku": "AH-1234",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1654,
+   "precios": {
+    "12": 1406
+   }
+  },
+  {
+   "id": "ah-1235",
+   "nombre": "Cesto de residuos 28 litros Tramontina",
+   "sku": "AH-1235",
+   "categoria": "limpieza",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2694,
+   "precios": {
+    "12": 2290
+   }
+  },
+  {
+   "id": "ah-1236",
+   "nombre": "Sabanas 1200 plazas Nova",
+   "sku": "AH-1236",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1947,
+   "precios": {
+    "12": 1655
+   }
+  },
+  {
+   "id": "ah-1237",
+   "nombre": "Batidora de mano 22 watts Andes",
+   "sku": "AH-1237",
+   "categoria": "electrodomesticos",
+   "precio": 34537,
+   "precios": {
+    "12": 29356
+   }
+  },
+  {
+   "id": "ah-1238",
+   "nombre": "Batidora de mano 18 watts Casa Real",
+   "sku": "AH-1238",
+   "categoria": "bazar",
+   "precio": 1527,
+   "precios": {
+    "12": 1298
+   }
+  },
+  {
+   "id": "ah-1239",
+   "nombre": "Tostadora 18 rebanadas Tramontina",
+   "sku": "AH-1239",
+   "categoria": "bazar",
+   "precio": 1607,
+   "precios": {
+    "12": 1366
+   }
+  },
+  {
+   "id": "ah-1240",
+   "nombre": "Sarten antiadherente 18 cm Nova",
+   "sku": "AH-1240",
+   "categoria": "bazar",
+   "precio": 3054,
+   "precios": {
+    "12": 2596
+   }
+  },
+  {
+   "id": "ah-1241",
+   "nombre": "Dispenser de jabon 40 ml Tramontina",
+   "sku": "AH-1241",
+   "categoria": "jardin",
+   "precio": 13337,
+   "precios": {
+    "12": 11336
+   }
+  },
+  {
+   "id": "ah-1242",
+   "nombre": "Cesto de residuos 1200 litros Bahia",
+   "sku": "AH-1242",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2552,
+   "precios": {
+    "12": 2169
+   }
+  },
+  {
+   "id": "ah-1243",
+   "nombre": "Set de ollas 14 piezas Nova",
+   "sku": "AH-1243",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 3144,
+   "precios": {
+    "12": 2672
+   }
+  },
+  {
+   "id": "ah-1244",
+   "nombre": "Sabanas 16 plazas Casa Real",
+   "sku": "AH-1244",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 3110,
+   "precios": {
+    "12": 2644
+   }
+  },
+  {
+   "id": "ah-1245",
+   "nombre": "Secador de piso 24 cm Tramontina",
+   "sku": "AH-1245",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 34167,
+   "precios": {
+    "12": 29042
+   }
+  },
+  {
+   "id": "ah-1246",
+   "nombre": "Balde con escurridor 22 litros Nova",
+   "sku": "AH-1246",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1318,
+   "precios": {
+    "12": 1120
+   }
+  },
+  {
+   "id": "ah-1247",
+   "nombre": "Dispenser de jabon 22 ml Nova",
+   "sku": "AH-1247",
+   "categoria": "limpieza",
+   "precio": 33931,
+   "precios": {
+    "12": 28841
+   }
+  },
+  {
+   "id": "ah-1248",
+   "nombre": "Canasto organizador 30 litros Nova",
+   "sku": "AH-1248",
+   "categoria": "bazar",
+   "precio": 16569,
+   "precios": {
+    "12": 14084
+   }
+  },
+  {
+   "id": "ah-1249",
+   "nombre": "Batidora de mano 1200 watts Prisma",
+   "sku": "AH-1249",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1336,
+   "precios": {
+    "12": 1136
+   }
+  },
+  {
+   "id": "ah-1250",
+   "nombre": "Secador de piso 1000 cm Nova",
+   "sku": "AH-1250",
+   "categoria": "electro",
+   "precio": 1856,
+   "precios": {
+    "12": 1578
+   }
+  },
+  {
+   "id": "ah-1251",
+   "nombre": "Sabanas 750 plazas Casa Real",
+   "sku": "AH-1251",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 7806,
+   "precios": {
+    "12": 6635
+   }
+  },
+  {
+   "id": "ah-1252",
+   "nombre": "Batidora de mano 18 watts Prisma",
+   "sku": "AH-1252",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 13216,
+   "precios": {
+    "12": 11234
+   }
+  },
+  {
+   "id": "ah-1253",
+   "nombre": "Pava electrica 16 litros Luminar",
+   "sku": "AH-1253",
+   "categoria": "organizacion",
+   "precio": 8006,
+   "precios": {
+    "12": 6805
+   }
+  },
+  {
+   "id": "ah-1254",
+   "nombre": "Ventilador de pie 24 pulgadas Tramontina",
+   "sku": "AH-1254",
+   "categoria": "limpieza",
+   "precio": 2710,
+   "precios": {
+    "12": 2304
+   }
+  },
+  {
+   "id": "ah-1255",
+   "nombre": "Perchas de plastico 500 unidades Nova",
+   "sku": "AH-1255",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1201,
+   "precios": {
+    "12": 1021
+   }
+  },
+  {
+   "id": "ah-1256",
+   "nombre": "Perchas de plastico 36 unidades Casa Real",
+   "sku": "AH-1256",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 34545,
+   "precios": {
+    "12": 29363
+   }
+  },
+  {
+   "id": "ah-1257",
+   "nombre": "Cafetera italiana 36 pocillos Nova",
+   "sku": "AH-1257",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1585,
+   "precios": {
+    "12": 1347
+   }
+  },
+  {
+   "id": "ah-1258",
+   "nombre": "Dispenser de jabon 1200 ml",
+   "sku": "AH-1258",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 16749,
+   "precios": {
+    "12": 14237
+   }
+  },
+  {
+   "id": "ah-1259",
+   "nombre": "Juego de toallas 30 piezas Prisma",
+   "sku": "AH-1259",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2686,
+   "precios": {
+    "12": 2283
+   }
+  },
+  {
+   "id": "ah-1260",
+   "nombre": "Juego de toallas 500 piezas Andes",
+   "sku": "AH-1260",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 16186,
+   "precios": {
+    "12": 13758
+   }
+  },
+  {
+   "id": "ah-1261",
+   "nombre": "Set de cubiertos 750 piezas Casa Real",
+   "sku": "AH-1261",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1143,
+   "precios": {
+    "12": 972
+   }
+  },
+  {
+   "id": "ah-1262",
+   "nombre": "Tostadora 36 rebanadas Tramontina",
+   "sku": "AH-1262",
+   "categoria": "cocina",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1131,
+   "precios": {
+    "12": 961
+   }
+  },
+  {
+   "id": "ah-1263",
+   "nombre": "Balde con escurridor 750 litros Luminar",
+   "sku": "AH-1263",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1563,
+   "precios": {
+    "12": 1329
+   }
+  },
+  {
+   "id": "ah-1264",
+   "nombre": "Caja organizadora 18 litros Casa Real",
+   "sku": "AH-1264",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 5500,
+   "precios": {
+    "12": 4675
+   }
+  },
+  {
+   "id": "ah-1265",
+   "nombre": "Balde con escurridor 20 litros Luminar",
+   "sku": "AH-1265",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2587,
+   "precios": {
+    "12": 2199
+   }
+  },
+  {
+   "id": "ah-1266",
+   "nombre": "Juego de toallas 14 piezas Nova",
+   "sku": "AH-1266",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 34774,
+   "precios": {
+    "12": 29558
+   }
+  },
+  {
+   "id": "ah-1267",
+   "nombre": "Regadera 20 litros Prisma",
+   "sku": "AH-1267",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 7222,
+   "precios": {
+    "12": 6139
+   }
+  },
+  {
+   "id": "ah-1268",
+   "nombre": "Tostadora 750 rebanadas Bahia",
+   "sku": "AH-1268",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 2258,
+   "precios": {
+    "12": 1919
+   }
+  },
+  {
+   "id": "ah-1269",
+   "nombre": "Regadera 40 litros Bahia",
+   "sku": "AH-1269",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 13183,
+   "precios": {
+    "12": 11206
+   }
+  },
+  {
+   "id": "ah-1270",
+   "nombre": "Plancha a vapor 18 watts Luminar",
+   "sku": "AH-1270",
+   "categoria": "cocina",
+   "descripcion": "Apto lavavajillas",
+   "precio": 7642,
+   "precios": {
+    "12": 6496
+   }
+  },
+  {
+   "id": "ah-1271",
+   "nombre": "Ventilador de pie 750 pulgadas Luminar",
+   "sku": "AH-1271",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 34148,
+   "precios": {
+    "12": 29026
+   }
+  },
+  {
+   "id": "ah-1272",
+   "nombre": "Regadera 750 litros Casa Real",
+   "sku": "AH-1272",
+   "categoria": "limpieza",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 5619,
+   "precios": {
+    "12": 4776
+   }
+  },
+  {
+   "id": "ah-1273",
+   "nombre": "Juego de toallas 14 piezas Bahia",
+   "sku": "AH-1273",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 16681,
+   "precios": {
+    "12": 14179
+   }
+  },
+  {
+   "id": "ah-1274",
+   "nombre": "Cesto de residuos 500 litros Tramontina",
+   "sku": "AH-1274",
+   "categoria": "jardin",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1898,
+   "precios": {
+    "12": 1613
+   }
+  },
+  {
+   "id": "ah-1275",
+   "nombre": "Palo de escoba 16 cm Nova",
+   "sku": "AH-1275",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 5306,
+   "precios": {
+    "12": 4510
+   }
+  },
+  {
+   "id": "ah-1276",
+   "nombre": "Regadera 1000 litros Andes",
+   "sku": "AH-1276",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16346,
+   "precios": {
+    "12": 13894
+   }
+  },
+  {
+   "id": "ah-1277",
+   "nombre": "Licuadora 20 watts",
+   "sku": "AH-1277",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 16006,
+   "precios": {
+    "12": 13605
+   }
+  },
+  {
+   "id": "ah-1278",
+   "nombre": "Mantel plastificado 24 metros Bahia",
+   "sku": "AH-1278",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7415,
+   "precios": {
+    "12": 6303
+   }
+  },
+  {
+   "id": "ah-1279",
+   "nombre": "Caja organizadora 36 litros Luminar",
+   "sku": "AH-1279",
+   "categoria": "organizacion",
+   "precio": 2814,
+   "precios": {
+    "12": 2392
+   }
+  },
+  {
+   "id": "ah-1280",
+   "nombre": "Balde con escurridor 22 litros Bahia",
+   "sku": "AH-1280",
+   "categoria": "bazar",
+   "precio": 33962,
+   "precios": {
+    "12": 28868
+   }
+  },
+  {
+   "id": "ah-1281",
+   "nombre": "Perchas de plastico 28 unidades Tramontina",
+   "sku": "AH-1281",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2721,
+   "precios": {
+    "12": 2313
+   }
+  },
+  {
+   "id": "ah-1282",
+   "nombre": "Secador de piso 750 cm Bahia",
+   "sku": "AH-1282",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16214,
+   "precios": {
+    "12": 13782
+   }
+  },
+  {
+   "id": "ah-1283",
+   "nombre": "Juego de toallas 20 piezas Casa Real",
+   "sku": "AH-1283",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1685,
+   "precios": {
+    "12": 1432
+   }
+  },
+  {
+   "id": "ah-1284",
+   "nombre": "Sabanas 500 plazas Andes",
+   "sku": "AH-1284",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1251,
+   "precios": {
+    "12": 1063
+   }
+  },
+  {
+   "id": "ah-1285",
+   "nombre": "Juego de toallas 22 piezas Casa Real",
+   "sku": "AH-1285",
+   "categoria": "textil-de-hogar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7563,
+   "precios": {
+    "12": 6429
+   }
+  },
+  {
+   "id": "ah-1286",
+   "nombre": "Balde con escurridor 750 litros Bahia",
+   "sku": "AH-1286",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 5186,
+   "precios": {
+    "12": 4408
+   }
+  },
+  {
+   "id": "ah-1287",
+   "nombre": "Sabanas 14 plazas Prisma",
+   "sku": "AH-1287",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1240,
+   "precios": {
+    "12": 1054
+   }
+  },
+  {
+   "id": "ah-1288",
+   "nombre": "Trapo de piso 30 unidades",
+   "sku": "AH-1288",
+   "categoria": "organizacion",
+   "precio": 34538,
+   "precios": {
+    "12": 29357
+   }
+  },
+  {
+   "id": "ah-1289",
+   "nombre": "Plancha a vapor 24 watts Casa Real",
+   "sku": "AH-1289",
+   "categoria": "limpieza",
+   "precio": 5624,
+   "precios": {
+    "12": 4780
+   }
+  },
+  {
+   "id": "ah-1290",
+   "nombre": "Juego de vasos 1200 piezas Tramontina",
+   "sku": "AH-1290",
+   "categoria": "jardin",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1433,
+   "precios": {
+    "12": 1218
+   }
+  },
+  {
+   "id": "ah-1291",
+   "nombre": "Ventilador de pie 40 pulgadas Nova",
+   "sku": "AH-1291",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 1714,
+   "precios": {
+    "12": 1457
+   }
+  },
+  {
+   "id": "ah-1292",
+   "nombre": "Balde con escurridor 40 litros Luminar",
+   "sku": "AH-1292",
+   "categoria": "jardin",
+   "descripcion": "Ideal para uso diario",
+   "precio": 2596,
+   "precios": {
+    "12": 2207
+   }
+  },
+  {
+   "id": "ah-1293",
+   "nombre": "Pava electrica 1000 litros",
+   "sku": "AH-1293",
+   "categoria": "bazar",
+   "descripcion": "Ideal para uso diario",
+   "precio": 1793,
+   "precios": {
+    "12": 1524
+   }
+  },
+  {
+   "id": "ah-1294",
+   "nombre": "Cesto de residuos 28 litros Casa Real",
+   "sku": "AH-1294",
+   "categoria": "electrodomesticos",
+   "precio": 3154,
+   "precios": {
+    "12": 2681
+   }
+  },
+  {
+   "id": "ah-1295",
+   "nombre": "Plancha a vapor 36 watts Prisma",
+   "sku": "AH-1295",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 13006,
+   "precios": {
+    "12": 11055
+   }
+  },
+  {
+   "id": "ah-1296",
+   "nombre": "Mantel plastificado 16 metros",
+   "sku": "AH-1296",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2868,
+   "precios": {
+    "12": 2438
+   }
+  },
+  {
+   "id": "ah-1297",
+   "nombre": "Perchas de plastico 20 unidades Casa Real",
+   "sku": "AH-1297",
+   "categoria": "electrodomesticos",
+   "precio": 7704,
+   "precios": {
+    "12": 6548
+   }
+  },
+  {
+   "id": "ah-1298",
+   "nombre": "Sabanas 30 plazas Casa Real",
+   "sku": "AH-1298",
+   "categoria": "electro",
+   "descripcion": "Ideal para uso diario",
+   "precio": 7452,
+   "precios": {
+    "12": 6334
+   }
+  },
+  {
+   "id": "ah-1299",
+   "nombre": "Licuadora 40 watts Nova",
+   "sku": "AH-1299",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1750,
+   "precios": {
+    "12": 1488
+   }
+  },
+  {
+   "id": "ah-1300",
+   "nombre": "Regadera 40 litros",
+   "sku": "AH-1300",
+   "categoria": "electro",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5610,
+   "precios": {
+    "12": 4768
+   }
+  },
+  {
+   "id": "ah-1301",
+   "nombre": "Perchas de plastico 28 unidades Luminar",
+   "sku": "AH-1301",
+   "categoria": "cocina",
+   "precio": 1542,
+   "precios": {
+    "12": 1311
+   }
+  },
+  {
+   "id": "ah-1302",
+   "nombre": "Olla de aluminio 40 cm Nova",
+   "sku": "AH-1302",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1818,
+   "precios": {
+    "12": 1545
+   }
+  },
+  {
+   "id": "ah-1303",
+   "nombre": "Sabanas 1000 plazas Casa Real",
+   "sku": "AH-1303",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1718,
+   "precios": {
+    "12": 1460
+   }
+  },
+  {
+   "id": "ah-1304",
+   "nombre": "Ventilador de pie 18 pulgadas Tramontina",
+   "sku": "AH-1304",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 3182,
+   "precios": {
+    "12": 2705
+   }
+  },
+  {
+   "id": "ah-1305",
+   "nombre": "Trapo de piso 30 unidades Andes",
+   "sku": "AH-1305",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 5195,
+   "precios": {
+    "12": 4416
+   }
+  },
+  {
+   "id": "ah-1306",
+   "nombre": "Balde con escurridor 36 litros Nova",
+   "sku": "AH-1306",
+   "categoria": "cocina",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 5049,
+   "precios": {
+    "12": 4292
+   }
+  },
+  {
+   "id": "ah-1307",
+   "nombre": "Caja organizadora 24 litros Prisma",
+   "sku": "AH-1307",
+   "categoria": "bazar",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 16343,
+   "precios": {
+    "12": 13892
+   }
+  },
+  {
+   "id": "ah-1308",
+   "nombre": "Bowl de vidrio 16 cm Tramontina",
+   "sku": "AH-1308",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 12824,
+   "precios": {
+    "12": 10900
+   }
+  },
+  {
+   "id": "ah-1309",
+   "nombre": "Cafetera italiana 40 pocillos Luminar",
+   "sku": "AH-1309",
+   "categoria": "organizacion",
+   "descripcion": "Producto importado. Consultar disponibilidad por color y medida antes de cerrar el pedido",
+   "precio": 1908,
+   "precios": {
+    "12": 1622
+   }
+  },
+  {
+   "id": "ah-1310",
+   "nombre": "Licuadora 40 watts Nova",
+   "sku": "AH-1310",
+   "categoria": "bazar",
+   "precio": 34207,
+   "precios": {
+    "12": 29076
+   }
+  },
+  {
+   "id": "ah-1311",
+   "nombre": "Sarten antiadherente 20 cm",
+   "sku": "AH-1311",
+   "categoria": "organizacion",
+   "precio": 3234,
+   "precios": {
+    "12": 2749
+   }
+  },
+  {
+   "id": "ah-1312",
+   "nombre": "Bowl de vidrio 36 cm Bahia",
+   "sku": "AH-1312",
+   "categoria": "organizacion",
+   "precio": 2600,
+   "precios": {
+    "12": 2210
+   }
+  },
+  {
+   "id": "ah-1313",
+   "nombre": "Tabla de picar 14 cm",
+   "sku": "AH-1313",
+   "categoria": "organizacion",
+   "descripcion": "Ideal para uso diario",
+   "precio": 993,
+   "precios": {
+    "12": 844
+   }
+  },
+  {
+   "id": "ah-1314",
+   "nombre": "Dispenser de jabon 14 ml Bahia",
+   "sku": "AH-1314",
+   "categoria": "bazar",
+   "descripcion": "Apto lavavajillas",
+   "precio": 2971,
+   "precios": {
+    "12": 2525
+   }
+  },
+  {
+   "id": "ah-1315",
+   "nombre": "Dispenser de jabon 1200 ml Casa Real",
+   "sku": "AH-1315",
+   "categoria": "organizacion",
+   "descripcion": "Apto lavavajillas",
+   "precio": 5325,
+   "precios": {
+    "12": 4526
+   }
+  },
+  {
+   "id": "ah-1316",
+   "nombre": "Dispenser de jabon 22 ml Casa Real",
+   "sku": "AH-1316",
+   "categoria": "cocina",
+   "precio": 33935,
+   "precios": {
+    "12": 28845
+   }
+  },
+  {
+   "id": "ah-1317",
+   "nombre": "Perchas de plastico 40 unidades Nova",
+   "sku": "AH-1317",
+   "categoria": "electrodomesticos",
+   "precio": 7781,
+   "precios": {
+    "12": 6614
+   }
+  }
+ ],
+ "_importado": "2026-09-24T15:59:04",
+ "_origen": "Lista de precios SEPTIEMBRE.xlsx"
+}

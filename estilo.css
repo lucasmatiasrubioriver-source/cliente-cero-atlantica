@@ -1,0 +1,165 @@
+/* ============================================================
+   Atlantica Hogar — IDENTIDAD DEL PROYECTO
+   ------------------------------------------------------------
+   Distribuidora de hogar y bazar. La web tiene que verse como
+   un deposito ordenado, no como una tienda de diseno: precio
+   grande, foto clara, y el boton de pedido siempre a mano.
+
+   Direccion de arte:
+     · azul petroleo   — el mar del nombre, y lo que da confianza
+     · terracota       — el precio, las ofertas, lo que hay que mirar
+     · arena           — el fondo, para que el blanco no encandile
+
+   La infraestructura (nucleo/) no se toca.
+   ============================================================ */
+
+:root {
+  --fx-primario: #0a3f4c;
+  --fx-primario-texto: #ffffff;
+  --fx-acento: #c2542c;
+  --fx-fondo: #ffffff;
+  --fx-superficie: #f7f2ea;
+  --fx-texto: #12232a;
+  --fx-texto-suave: #55646b;
+  --fx-borde: #e6ddd1;
+  --fx-fuente: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --fx-fuente-titulos: var(--fx-fuente);
+  --fx-peso-titulo: 800;
+  --fx-radio: 14px;
+  --fx-radio-chico: 9px;
+  --fx-sombra: 0 1px 2px rgba(18, 35, 42, .05), 0 10px 30px rgba(18, 35, 42, .07);
+
+  --ah-arena: #f7f2ea;
+  --ah-profundo: #062c35;
+  --ah-oferta: #c2542c;
+}
+
+/* ------------------------------------------------------------
+   ZONA LIBRE — diseno del proyecto
+   ------------------------------------------------------------ */
+
+h1, h2, h3 { letter-spacing: -.02em; }
+h2 { font-size: clamp(1.6rem, 1.1rem + 2vw, 2.4rem); }
+
+/* --- marca: el cliente no tiene un logo usable, asi que se dibuja --- */
+.fx-logo { gap: .6rem; align-items: center; }
+.fx-logo::before {
+  content: "AH";
+  display: grid;
+  place-items: center;
+  width: 2.9rem; height: 2.9rem;
+  border-radius: 10px;
+  background: linear-gradient(145deg, var(--fx-primario), var(--ah-profundo));
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.08rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25);
+}
+.fx-logo span { font-weight: 800; letter-spacing: -.01em; }
+
+.fx-header {
+  background: rgba(255, 255, 255, .92);
+  backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--fx-borde);
+}
+
+/* --- hero: arena con una trama fina que no pesa un byte --- */
+#hero, .fx-hero {
+  background:
+    radial-gradient(1100px 380px at 85% -10%, rgba(14, 83, 97, .10), transparent 60%),
+    repeating-linear-gradient(135deg, rgba(14, 83, 97, .035) 0 2px, transparent 2px 9px),
+    var(--ah-arena);
+  border-bottom: 1px solid var(--fx-borde);
+}
+.fx-hero h1 { font-size: clamp(1.75rem, 1.05rem + 2.9vw, 2.75rem); line-height: 1.1; }
+.fx-hero p { max-width: 46ch; font-size: 1.12rem; }
+.fx-hero img, .fx-hero picture {
+  border-radius: var(--fx-radio);
+  box-shadow: 14px 14px 0 rgba(194, 84, 44, .16), var(--fx-sombra);
+}
+
+/* --- lo mas pedido (bloque de cards) --- */
+#servicios { background: var(--fx-fondo); }
+#servicios .fx-card {
+  border: 1px solid var(--fx-borde);
+  border-top: 4px solid var(--ah-oferta);
+  background: #fff;
+}
+#servicios .fx-card h3 { color: var(--ah-profundo); }
+
+/* --- catalogo: lo mas importante de la web --- */
+#catalogo { background: var(--ah-arena); }
+
+.fx-cat-barra {
+  position: sticky; top: 64px; z-index: 5;
+  background: rgba(247, 242, 234, .94);
+  backdrop-filter: blur(6px);
+  padding: .7rem 0;
+  border-bottom: 1px solid var(--fx-borde);
+}
+.fx-cat-buscar {
+  border: 2px solid var(--fx-borde);
+  border-radius: 999px;
+  padding: .7rem 1.1rem;
+  font-size: 1rem;
+}
+.fx-cat-buscar:focus { border-color: var(--fx-primario); outline: 2px solid rgba(14, 83, 97, .18); }
+
+.fx-cat-chip {
+  border-radius: 999px;
+  border: 1px solid var(--fx-borde);
+  background: #fff;
+  font-weight: 600;
+}
+.fx-cat-chip[aria-pressed="true"], .fx-cat-chip.activo {
+  background: var(--fx-primario);
+  border-color: var(--fx-primario);
+  color: #fff;
+}
+
+.fx-cat-card {
+  background: #fff;
+  border: 1px solid var(--fx-borde);
+  border-radius: var(--fx-radio);
+  transition: transform .16s ease, box-shadow .16s ease;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fx-cat-card:hover { transform: translateY(-3px); box-shadow: var(--fx-sombra); }
+}
+.fx-cat-media { background: var(--ah-arena); border-radius: var(--fx-radio) var(--fx-radio) 0 0; }
+.fx-cat-nombre { font-weight: 700; line-height: 1.3; }
+.fx-cat-sku { font-variant-numeric: tabular-nums; color: var(--fx-texto-suave); }
+
+.fx-cat-precio {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--ah-profundo);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.02em;
+}
+.fx-cat-escalas {
+  background: rgba(194, 84, 44, .07);
+  border: 1px dashed rgba(194, 84, 44, .35);
+  border-radius: var(--fx-radio-chico);
+  padding: .45rem .6rem;
+  font-variant-numeric: tabular-nums;
+}
+.fx-cat-desde { color: var(--ah-oferta); font-weight: 700; }
+.fx-cat-contador { color: var(--fx-texto-suave); font-variant-numeric: tabular-nums; }
+
+/* --- cierre --- */
+#contacto { background: var(--ah-profundo); color: #eef4f5; }
+#contacto h2, #contacto h3 { color: #fff; }
+#contacto a { color: #ffd9c7; }
+#contacto .fx-card { background: rgba(255, 255, 255, .06); border-color: rgba(255, 255, 255, .14); }
+
+.fx-footer { background: var(--ah-profundo); color: #c8d6da; border-top: 1px solid rgba(255, 255, 255, .08); }
+.fx-footer a { color: #eaf2f4; }
+
+.fx-wa { box-shadow: 0 10px 26px rgba(18, 35, 42, .28); }
+
+@media (max-width: 640px) {
+  .fx-cat-barra { top: 56px; }
+  .fx-cat-precio { font-size: 1.3rem; }
+  .fx-hero img, .fx-hero picture { box-shadow: 8px 8px 0 rgba(194, 84, 44, .16); }
+}

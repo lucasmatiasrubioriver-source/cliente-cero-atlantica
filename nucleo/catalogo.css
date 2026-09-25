@@ -1,0 +1,92 @@
+/* ============================================================
+   FABRICA · catalogo.css — mecanica del catalogo
+   Solo estructura. Colores y forma salen de los tokens.
+   ============================================================ */
+
+.fx-cat-barra {
+  display: flex; flex-wrap: wrap; gap: var(--fx-e3);
+  align-items: center; margin-bottom: var(--fx-e3);
+}
+.fx-cat-buscar {
+  flex: 1 1 260px; min-height: 44px;
+  padding: var(--fx-e2) var(--fx-e3);
+  border: var(--fx-borde-ancho) solid var(--fx-borde);
+  border-radius: var(--fx-radio-chico);
+  background: var(--fx-fondo); color: var(--fx-texto);
+}
+.fx-cat-categorias { display: flex; flex-wrap: wrap; gap: var(--fx-e2); }
+.fx-cat-chip {
+  min-height: 40px; padding: var(--fx-e1) var(--fx-e3);
+  border: var(--fx-borde-ancho) solid var(--fx-borde);
+  border-radius: 999px; background: transparent; color: inherit; cursor: pointer;
+}
+.fx-cat-chip[aria-pressed="true"] {
+  background: var(--fx-primario); color: var(--fx-primario-texto); border-color: transparent;
+}
+
+.fx-cat-contador { color: var(--fx-texto-suave); font-size: .95em; margin: 0 0 var(--fx-e3); }
+.fx-cat-estado { color: var(--fx-texto-suave); }
+
+.fx-cat-grilla {
+  display: grid; gap: var(--fx-e3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+}
+.fx-cat-card {
+  display: flex; flex-direction: column; gap: var(--fx-e2);
+  padding: var(--fx-e3);
+  border: var(--fx-borde-ancho) solid var(--fx-borde);
+  border-radius: var(--fx-radio);
+  background: var(--fx-superficie);
+}
+.fx-cat-media { aspect-ratio: 1; overflow: hidden; border-radius: var(--fx-radio-chico); }
+.fx-cat-media img { width: 100%; height: 100%; object-fit: cover; }
+.fx-cat-nombre { font-size: 1.05rem; margin: 0; }
+.fx-cat-sku { color: var(--fx-texto-suave); font-size: .85em; margin: 0; }
+.fx-cat-precio { font-weight: 800; font-size: 1.1em; margin: 0; }
+.fx-cat-desde { font-weight: 400; font-size: .8em; color: var(--fx-texto-suave); }
+.fx-cat-acciones { display: flex; flex-wrap: wrap; gap: var(--fx-e2); margin-top: auto; }
+.fx-cat-acciones .fx-btn { flex: 1 1 auto; font-size: .92em; padding-inline: var(--fx-e3); }
+
+/* --- Ficha --- */
+.fx-cat-modal {
+  position: fixed; inset: 0; z-index: 150;
+  background: rgba(8, 11, 16, .6);
+  display: grid; place-items: center; padding: var(--fx-gutter);
+  overflow-y: auto;
+}
+.fx-cat-modal-caja {
+  position: relative; width: min(100%, 560px);
+  max-height: 90dvh; overflow-y: auto;
+  background: var(--fx-fondo); color: var(--fx-texto);
+  border-radius: var(--fx-radio); padding: var(--fx-e4);
+}
+.fx-cat-modal-img { width: 100%; max-height: 320px; object-fit: contain; border-radius: var(--fx-radio-chico); }
+.fx-cat-cerrar {
+  position: absolute; top: 8px; right: 8px; width: 44px; height: 44px;
+  border: none; background: none; font-size: 1.8rem; line-height: 1; cursor: pointer; color: inherit;
+}
+.fx-cat-escalas { width: 100%; border-collapse: collapse; margin: var(--fx-e3) 0; }
+.fx-cat-escalas th, .fx-cat-escalas td {
+  text-align: left; padding: var(--fx-e2);
+  border-bottom: var(--fx-borde-ancho) solid var(--fx-borde);
+}
+.fx-cat-escalas td { text-align: right; font-weight: 700; }
+
+/* --- Consulta --- */
+.fx-cat-consulta {
+  position: sticky; bottom: 0; z-index: 80;
+  margin-top: var(--fx-e4); padding: var(--fx-e3);
+  background: var(--fx-fondo);
+  border: var(--fx-borde-ancho) solid var(--fx-borde);
+  border-radius: var(--fx-radio); box-shadow: var(--fx-sombra);
+}
+.fx-cat-consulta h3 { margin: 0 0 var(--fx-e2); font-size: 1rem; }
+.fx-cat-consulta-lista { list-style: none; margin: 0 0 var(--fx-e3); padding: 0; max-height: 30dvh; overflow-y: auto; }
+.fx-cat-consulta-lista li {
+  display: flex; justify-content: space-between; align-items: center; gap: var(--fx-e2);
+  padding: var(--fx-e1) 0; border-bottom: var(--fx-borde-ancho) solid var(--fx-borde);
+}
+.fx-cat-quitar {
+  background: none; border: none; color: var(--fx-texto-suave);
+  text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0 var(--fx-e2);
+}

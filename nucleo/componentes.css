@@ -1,0 +1,206 @@
+/* ============================================================
+   FABRICA · componentes.css — ESTRUCTURA de los bloques comunes
+   ------------------------------------------------------------
+   Cada bloque resuelve su MECANICA (que no desborde, que sea
+   accesible, que funcione con el pulgar). El aspecto sale de los
+   tokens y de lo que el proyecto escriba en su estilo.css.
+
+   Un proyecto puede reordenar, reemplazar o redisenar cualquier
+   bloque. Lo unico que no deberia romper es el contrato de clases
+   que usa nucleo.js (fx-nav-*, fx-form, fx-wa).
+   ============================================================ */
+
+/* --- HEADER + NAVEGACION ------------------------------------- */
+
+.fx-header {
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, var(--fx-fondo) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: var(--fx-borde-ancho) solid var(--fx-borde);
+}
+.fx-header-in {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--fx-e3); min-height: var(--fx-alto-header);
+}
+.fx-logo { display: flex; align-items: center; gap: var(--fx-e2); font-weight: 800; text-decoration: none; color: inherit; }
+.fx-logo img { max-height: 38px; width: auto; background: none; }
+
+.fx-nav ul { display: flex; gap: var(--fx-e4); list-style: none; margin: 0; padding: 0; }
+.fx-nav a { color: inherit; text-decoration: none; padding: var(--fx-e2) 0; }
+.fx-nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 6px; }
+
+/* Boton hamburguesa: solo existe en movil */
+.fx-nav-boton {
+  display: none; width: 44px; height: 44px;     /* area tactil minima */
+  align-items: center; justify-content: center;
+  background: none; border: var(--fx-borde-ancho) solid var(--fx-borde);
+  border-radius: var(--fx-radio-chico); cursor: pointer;
+}
+.fx-nav-boton span, .fx-nav-boton span::before, .fx-nav-boton span::after {
+  content: ""; display: block; width: 20px; height: 2px;
+  background: currentColor; transition: transform var(--fx-transicion), opacity var(--fx-transicion);
+}
+.fx-nav-boton span::before { transform: translateY(-6px); }
+.fx-nav-boton span::after  { transform: translateY(4px); }
+.fx-nav-boton[aria-expanded="true"] span { background: transparent; }
+.fx-nav-boton[aria-expanded="true"] span::before { transform: rotate(45deg); }
+.fx-nav-boton[aria-expanded="true"] span::after  { transform: rotate(-45deg) translateY(-1px); }
+
+@media (max-width: 860px) {
+  .fx-nav-boton { display: inline-flex; }
+  .fx-nav {
+    position: fixed; inset: var(--fx-alto-header) 0 auto 0;
+    background: var(--fx-fondo);
+    border-bottom: var(--fx-borde-ancho) solid var(--fx-borde);
+    padding: var(--fx-e3) var(--fx-gutter) var(--fx-e5);
+    transform: translateY(-120%);
+    /* Cerrado NO debe existir para el puntero: con un menu corto, el panel
+       desplazado sigue tapando el boton hamburguesa y se come el clic.
+       Lo encontro el auditor de navegador haciendo clic de verdad. */
+    visibility: hidden;
+    pointer-events: none;
+    transition: transform var(--fx-transicion), visibility 0s linear var(--fx-transicion);
+    max-height: calc(100dvh - var(--fx-alto-header));
+    overflow-y: auto;
+  }
+  .fx-nav[data-abierto="true"] {
+    transform: none;
+    visibility: visible;
+    pointer-events: auto;
+    transition: transform var(--fx-transicion), visibility 0s;
+  }
+  .fx-nav ul { flex-direction: column; gap: 0; }
+  .fx-nav a { display: block; padding: var(--fx-e3) 0; border-bottom: var(--fx-borde-ancho) solid var(--fx-borde); }
+}
+
+/* --- BOTONES -------------------------------------------------- */
+
+.fx-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--fx-e2);
+  min-height: 44px; padding: var(--fx-e2) var(--fx-e4);
+  border: var(--fx-borde-ancho) solid transparent; border-radius: var(--fx-radio);
+  background: var(--fx-primario); color: var(--fx-primario-texto);
+  font-weight: 700; text-decoration: none; cursor: pointer;
+  transition: transform var(--fx-transicion), filter var(--fx-transicion);
+}
+.fx-btn:hover { filter: brightness(1.08); }
+.fx-btn:active { transform: translateY(1px); }
+.fx-btn[disabled], .fx-btn[aria-disabled="true"] { opacity: .55; cursor: not-allowed; }
+.fx-btn--fantasma { background: transparent; color: var(--fx-texto); border-color: var(--fx-borde); }
+.fx-btn--acento { background: var(--fx-acento); color: #10131a; }
+
+/* --- HERO ----------------------------------------------------- */
+
+.fx-hero { padding-block: var(--fx-seccion); }
+.fx-hero-in { display: grid; gap: var(--fx-e5); align-items: center; }
+@media (min-width: 900px) {
+  .fx-hero--partido .fx-hero-in { grid-template-columns: 1.1fr 1fr; }
+}
+.fx-hero p { font-size: 1.125em; color: var(--fx-texto-suave); }
+.fx-hero-acciones { display: flex; flex-wrap: wrap; gap: var(--fx-e3); margin-top: var(--fx-e4); }
+
+/* --- CARDS (servicios, beneficios, galeria, productos) -------- */
+
+.fx-card {
+  background: var(--fx-superficie);
+  border: var(--fx-borde-ancho) solid var(--fx-borde);
+  border-radius: var(--fx-radio);
+  padding: var(--fx-e4);
+  display: flex; flex-direction: column; gap: var(--fx-e2);
+}
+.fx-card h3 { margin: 0; }
+.fx-card p { margin: 0; }
+.fx-card--link { text-decoration: none; color: inherit; transition: transform var(--fx-transicion), box-shadow var(--fx-transicion); }
+.fx-card--link:hover { transform: translateY(-2px); box-shadow: var(--fx-sombra); }
+.fx-card-media { aspect-ratio: 4 / 3; overflow: hidden; border-radius: var(--fx-radio-chico); }
+.fx-card-media img { width: 100%; height: 100%; object-fit: cover; }
+
+/* --- TESTIMONIOS ---------------------------------------------- */
+
+.fx-testimonio { background: var(--fx-superficie); border-left: 4px solid var(--fx-primario);
+  border-radius: var(--fx-radio-chico); padding: var(--fx-e4); }
+.fx-testimonio blockquote { margin: 0 0 var(--fx-e2); font-size: 1.05em; }
+.fx-testimonio figcaption { color: var(--fx-texto-suave); font-size: .95em; }
+
+/* --- FAQ (usa <details> nativo: cero JS, accesible de fabrica) - */
+
+.fx-faq { border-top: var(--fx-borde-ancho) solid var(--fx-borde); }
+.fx-faq details { border-bottom: var(--fx-borde-ancho) solid var(--fx-borde); }
+.fx-faq summary {
+  cursor: pointer; padding: var(--fx-e3) 0; font-weight: 700;
+  display: flex; justify-content: space-between; align-items: center; gap: var(--fx-e3);
+  min-height: 44px;
+}
+.fx-faq summary::after { content: "+"; font-size: 1.4em; line-height: 1; flex: none; }
+.fx-faq details[open] summary::after { content: "\2212"; }
+.fx-faq details > div { padding-bottom: var(--fx-e3); }
+.fx-faq details > div > *:last-child { margin-bottom: 0; }
+
+/* --- GALERIA -------------------------------------------------- */
+
+.fx-galeria { display: grid; gap: var(--fx-e3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); }
+.fx-galeria img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--fx-radio-chico); }
+
+/* --- CTA ------------------------------------------------------ */
+
+.fx-cta { background: var(--fx-primario); color: var(--fx-primario-texto); border-radius: var(--fx-radio);
+  padding: var(--fx-e5) var(--fx-e4); text-align: center; }
+.fx-cta h2, .fx-cta p { color: inherit; margin-inline: auto; }
+.fx-cta .fx-btn { background: var(--fx-primario-texto); color: var(--fx-primario); }
+
+/* --- FORMULARIO ----------------------------------------------- */
+
+.fx-form { display: grid; gap: var(--fx-e3); max-width: 560px; }
+.fx-campo { display: grid; gap: var(--fx-e1); }
+.fx-campo label { font-weight: 600; }
+.fx-campo input, .fx-campo textarea, .fx-campo select {
+  width: 100%; min-height: 44px; padding: var(--fx-e2) var(--fx-e3);
+  background: var(--fx-fondo); color: var(--fx-texto);
+  border: var(--fx-borde-ancho) solid var(--fx-borde); border-radius: var(--fx-radio-chico);
+}
+.fx-campo textarea { min-height: 120px; resize: vertical; }
+.fx-campo[data-error="true"] input, .fx-campo[data-error="true"] textarea { border-color: var(--fx-error); }
+.fx-campo .fx-error { color: var(--fx-error); font-size: .9em; min-height: 1.2em; }
+/* Trampa anti-spam: invisible para personas, presente para bots */
+.fx-trampa { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.fx-form-estado { min-height: 1.5em; font-weight: 600; }
+.fx-form-estado[data-tipo="ok"] { color: var(--fx-ok); }
+.fx-form-estado[data-tipo="error"] { color: var(--fx-error); }
+
+/* --- BREADCRUMBS ---------------------------------------------- */
+
+.fx-migas { font-size: .92em; color: var(--fx-texto-suave); }
+.fx-migas ol { display: flex; flex-wrap: wrap; gap: var(--fx-e2); list-style: none; margin: 0; padding: 0; }
+.fx-migas li + li::before { content: "/"; margin-right: var(--fx-e2); opacity: .6; }
+.fx-migas a { color: inherit; }
+
+/* --- FOOTER --------------------------------------------------- */
+
+.fx-footer { background: var(--fx-superficie); border-top: var(--fx-borde-ancho) solid var(--fx-borde);
+  padding-block: var(--fx-e5); margin-top: var(--fx-seccion); }
+.fx-footer-grilla { display: grid; gap: var(--fx-e4);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.fx-footer a { color: inherit; }
+.fx-footer-legal { margin-top: var(--fx-e4); padding-top: var(--fx-e3);
+  border-top: var(--fx-borde-ancho) solid var(--fx-borde);
+  color: var(--fx-texto-suave); font-size: .9em; }
+
+/* --- WHATSAPP FLOTANTE ---------------------------------------- */
+/* #128c7e (verde oscuro oficial) y no #25d366: el claro da 1,98:1 contra el
+   icono blanco y WCAG pide 3:1 para elementos graficos. Se puede cambiar con
+   --fx-whatsapp, pero el auditor va a marcar el contraste si se elige mal. */
+
+.fx-wa-flotante {
+  position: fixed; right: 16px; bottom: 16px; z-index: 90;
+  width: 56px; height: 56px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--fx-whatsapp, #128c7e); color: #fff; box-shadow: var(--fx-sombra);
+  text-decoration: none;
+}
+.fx-wa-flotante svg { width: 28px; height: 28px; fill: currentColor; }
+@media print { .fx-wa-flotante, .fx-header { display: none; } }
+
+/* --- 404 ------------------------------------------------------ */
+
+.fx-404 { min-height: 60vh; display: grid; place-items: center; text-align: center; }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlantica Hogar | Distribuidora de bazar, cocina y electro</title>
+  <meta name="description" content="Distribuidora de articulos de hogar: bazar, cocina, limpieza y electro. Precio por unidad y por docena. Pedidos por WhatsApp.">
+  <link rel="canonical" href="https://lucasmatiasrubioriver-source.github.io/cliente-cero-atlantica/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Atlantica Hogar | Distribuidora de bazar, cocina y electro">
+  <meta property="og:description" content="Distribuidora de articulos de hogar: bazar, cocina, limpieza y electro. Precio por unidad y por docena. Pedidos por WhatsApp.">
+  <meta property="og:image" content="https://lucasmatiasrubioriver-source.github.io/cliente-cero-atlantica/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:url" content="https://lucasmatiasrubioriver-source.github.io/cliente-cero-atlantica/">
+  <link rel="stylesheet" href="nucleo/base.css">
+  <link rel="stylesheet" href="nucleo/componentes.css">
+  <link rel="stylesheet" href="nucleo/catalogo.css">
+  <link rel="stylesheet" href="estilo.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "name": "Atlantica Hogar", "description": "Distribuidora de articulos de hogar, bazar y electrodomesticos. Venta por mayor y por menor, con entrega en la zona.", "url": "https://lucasmatiasrubioriver-source.github.io/cliente-cero-atlantica", "telephone": "+54 223 495-1200", "email": "ventas@atlanticahogar.com.ar", "sameAs": [{"nombre": "Instagram", "url": "https://instagram.com/atlanticahogar"}], "@type": "LocalBusiness", "address": {"@type": "PostalAddress", "streetAddress": "Rivadavia 4120", "addressLocality": "Mar del Plata"}, "openingHours": "Lunes a viernes de 8:30 a 17:30 · Sabados de 9 a 13"}</script>
+</head>
+<body>
+<a class="fx-saltar" href="#principal">Saltar al contenido</a>
+<header class="fx-header">
+  <div class="fx-contenedor fx-header-in">
+    <a class="fx-logo" href="index.html"><span>Atlantica Hogar</span></a>
+    <button class="fx-nav-boton" type="button" aria-label="Abrir menu"><span></span></button>
+    <nav class="fx-nav" aria-label="Principal">
+      <ul><li><a href="index.html">Inicio</a></li><li><a href="nosotros.html">Nosotros</a></li></ul>
+    </nav>
+  </div>
+</header>
+<main id="principal">
+<section class="fx-hero fx-hero--partido">
+  <div class="fx-contenedor fx-hero-in">
+    <div>
+      <h1>Todo para la casa, al precio del que compra por cantidad</h1>
+      <p>Bazar, cocina, limpieza, organizacion y electro. Envios a todo el pais por transporte (el flete lo paga el comprador). Mira el precio por unidad y por docena, y cerras el pedido por WhatsApp.</p>
+      <div class="fx-hero-acciones">
+        <a class="fx-btn" href="#contacto" data-fx-cta>Ver el catalogo</a>
+        <a class="fx-btn fx-btn--fantasma" href="https://wa.me/5492235123344?text=Hola%20Atlantica%20Hogar%21%20Vengo%20de%20la%20web%20y%20queria%20hacer%20un%20pedido%20de..." data-fx-wa data-tel="5492235123344" data-msg="Hola Atlantica Hogar! Vengo de la web y queria hacer un pedido de...">Escribinos por WhatsApp</a>
+      </div>
+    </div>
+    <div>
+      <img src="assets/hero.webp" alt="Atlantica Hogar: imagen principal" fetchpriority="high" srcset="assets/hero-800.webp 800w, assets/hero.webp 1600w" sizes="(max-width: 900px) 100vw, 800px" width="1600" height="1200">
+    </div>
+  </div>
+</section>
+<section class="fx-seccion" id="catalogo">
+  <div class="fx-contenedor">
+    <h2>Catalogo</h2>
+    <p>Busca, filtra y arma tu consulta.</p>
+    <div data-fx-catalogo data-datos="datos/productos.json" data-tel="5492235123344">
+      <p>Cargando productos...</p>
+    </div>
+  </div>
+</section>
+<section class="fx-seccion" id="servicios">
+  <div class="fx-contenedor">
+    <h2>Lo mas pedido</h2>
+    <div class="fx-grilla" style="--fx-col:280px">
+            <article class="fx-card">
+        <h3>Set de ollas 5 piezas</h3>
+        <p>La mas pedida del mes. Por docena queda a precio de mayorista.</p>
+      </article>
+      <article class="fx-card">
+        <h3>Bazar por cantidad</h3>
+        <p>Vasos, frascos y cubiertos: cuanto mas llevas, menos pagas por unidad.</p>
+      </article>
+      <article class="fx-card">
+        <h3>Electro chico</h3>
+        <p>Pavas, licuadoras y tostadoras con garantia escrita de 6 meses.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="fx-seccion" id="contacto">
+  <div class="fx-contenedor">
+    <h2>Contacto</h2>
+    <p>Dejanos tu consulta y te respondemos.</p>
+    <form class="fx-form" name="contacto" data-fx-form
+          data-destino="whatsapp"
+          data-endpoint=""
+          data-tel="5492235123344"
+          data-email="ventas@atlanticahogar.com.ar">
+      <div class="fx-campo">
+        <label for="f-nombre">Nombre</label>
+        <input id="f-nombre" name="nombre" type="text" required autocomplete="name">
+        <div class="fx-error"></div>
+      </div>
+      <div class="fx-campo">
+        <label for="f-email">Email</label>
+        <input id="f-email" name="email" type="email" required autocomplete="email">
+        <div class="fx-error"></div>
+      </div>
+      <div class="fx-campo">
+        <label for="f-tel">Telefono</label>
+        <input id="f-tel" name="telefono" type="tel" autocomplete="tel">
+        <div class="fx-error"></div>
+      </div>
+      <div class="fx-campo">
+        <label for="f-msg">Mensaje</label>
+        <textarea id="f-msg" name="mensaje" required minlength="10"></textarea>
+        <div class="fx-error"></div>
+      </div>
+      <div class="fx-trampa" aria-hidden="true">
+        <label for="f-web">No completar</label>
+        <input id="f-web" name="sitio-web" type="text" tabindex="-1" autocomplete="off">
+      </div>
+      <button class="fx-btn" type="submit">Enviar</button>
+      <div class="fx-form-estado" role="status" aria-live="polite"></div>
+      <p style="font-size:.85em;color:var(--fx-texto-suave)">Usamos tus datos solo para responderte. No los compartimos.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="fx-footer">
+  <div class="fx-contenedor">
+    <div class="fx-footer-grilla">
+      <div>
+        <strong>Atlantica Hogar</strong>
+        <p>Rivadavia 4120</p>
+      </div>
+      <div>
+        <strong>Contacto</strong>
+        <p>
+          <a href="tel:+542234951200">+54 223 495-1200</a><br>
+          <a href="mailto:ventas@atlanticahogar.com.ar">ventas@atlanticahogar.com.ar</a>
+        </p>
+      </div>
+      <div>
+        <strong>Horario</strong>
+        <p>Lunes a viernes de 8:30 a 17:30 · Sabados de 9 a 13</p>
+      </div>
+    </div>
+    <div class="fx-footer-legal">
+      <span>&copy; <span data-fx-anio>2026</span> Atlantica Hogar.</span> · <a href="privacidad.html">Privacidad</a>
+    </div>
+  </div>
+</footer>
+<a class="fx-wa-flotante" href="https://wa.me/5492235123344?text=Hola%20Atlantica%20Hogar%21%20Vengo%20de%20la%20web%20y%20queria%20hacer%20un%20pedido%20de..." data-fx-wa data-tel="5492235123344" data-msg="Hola Atlantica Hogar! Vengo de la web y queria hacer un pedido de..." aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.4.6-.3.3c-.1.1-.2.3 0 .5.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.5-.1l.8-.9c.2-.2.3-.2.5-.1l2 1c.3.1.4.2.5.3.1.2.1.7-.1 1.3Z"/></svg>
+</a>
+  <script src="nucleo/catalogo.js" defer></script>
+  <script src="nucleo/nucleo.js" defer></script>
+  <script src="nucleo/formulario.js" defer></script>
+</body>
+</html>
